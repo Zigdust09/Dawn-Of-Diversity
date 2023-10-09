@@ -1,0 +1,59 @@
+{
+     "pools": [
+          {
+               "rolls": 1,
+               "entries": [
+                    {
+                         "type": "minecraft:item",
+                         "name": "minecraft:stone",
+                         "functions": [
+                              {
+                                   "function": "minecraft:set_nbt",
+                                   "tag": "{species:puffer,is_species_item:1}"
+                              }
+                         ]
+                    },
+                    {
+                         "type": "minecraft:item",
+                         "name": "minecraft:stone",
+                         "functions": [
+                              {
+                                   "function": "minecraft:set_nbt",
+                                   "tag": "{species:skyborn,is_species_item:1}"
+                              }
+                         ]
+                    },
+                    {
+                         "type": "minecraft:item",
+                         "name": "minecraft:stone",
+                         "functions": [
+                              {
+                                   "function": "minecraft:set_nbt",
+                                   "tag": "{species:end_sprinter,is_species_item:1}"
+                              }
+                         ]
+                    },
+                    {
+                         "type": "minecraft:item",
+                         "name": "minecraft:stone",
+                         "functions": [
+                              {
+                                   "function": "minecraft:set_nbt",
+                                   "tag": "{species:night_walker,is_species_item:1}"
+                              }
+                         ]
+                    },
+                    {
+                         "type": "minecraft:item",
+                         "name": "minecraft:stone",
+                         "functions": [
+                              {
+                                   "function": "minecraft:set_nbt",
+                                   "tag": "{species:egg_shifter,is_species_item:1}"
+                              }
+                         ]
+                    }
+               ]
+          }
+     ]
+}
