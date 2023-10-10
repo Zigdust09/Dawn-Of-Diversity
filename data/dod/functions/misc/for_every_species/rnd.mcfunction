@@ -1,5 +1,5 @@
 ##breakpoint
-execute as @s[tag=end_sprinter_has_been,tag=skyborn_has_been,tag=puffer_has_been,tag=night_walker_has_been,tag=egg_shifter_has_been] run function dod:misc/dev_functions/stop
+function dod:misc/for_every_species/species_blacklist_check
 
 
 ##roll the value
