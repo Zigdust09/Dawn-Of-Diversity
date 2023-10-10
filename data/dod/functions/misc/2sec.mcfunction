@@ -6,18 +6,18 @@ function dod:misc/bookgive
 function dod:misc/for_every_species/trigger
 
 
-
-
-
-execute if score World dod_random_species_1_is_on matches 1 as @a[tag=!has_species] run function dod:misc/for_every_species/rnd
-
 ##rescheduals the function to make it repeat
 schedule function dod:misc/2sec 2s append
 
-##makes players pick a species
 
-title @a[tag=!has_species] title "Pick a species"
-effect give @a[tag=!has_species] blindness 4 5 true
-effect give @a[tag=!has_species] mining_fatigue 4 5 true
-effect give @a[tag=!has_species] jump_boost 4 200 true
-effect give @a[tag=!has_species] slowness 4 255 true
+execute if score World dod_random_species_1_is_on matches 1 as @a[tag=!has_species,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+
+
+
+##runs the "pick a species" code
+function dod:misc/pick_a_species
+
+
+## adds the species manipulation code
+
+

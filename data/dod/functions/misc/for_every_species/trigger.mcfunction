@@ -4,13 +4,16 @@ execute unless score World dod_random_species_1_is_on matches 1 run scoreboard p
 tag @a[tag=!dod_species_trigger_enable] add dod_species_trigger_enable
 
 ##if no blacklist
+execute as @a[scores={dod_species_trigger=999}] unless entity @e[tag=species_blacklist,tag=random_blacklist] run function dod:species/random_confirm
 execute as @a[scores={dod_species_trigger=1}] unless entity @e[tag=species_blacklist,tag=end_sprinter_blacklist] run function dod:species/end_sprinter/end_sprinter_confirm
 execute as @a[scores={dod_species_trigger=2}] unless entity @e[tag=species_blacklist,tag=skyborn_blacklist] run function dod:species/skyborn/skyborn_confirm
 execute as @a[scores={dod_species_trigger=3}] unless entity @e[tag=species_blacklist,tag=puffer_blacklist] run function dod:species/puffer/puffer_confirm
 execute as @a[scores={dod_species_trigger=4}] unless entity @e[tag=species_blacklist,tag=night_walker_blacklist] run function dod:species/night_walker/night_walker_confirm
+execute as @a[scores={dod_species_trigger=5}] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_confirm
 ### Species marker 
 
-##if
+##if there is a blacklist
+execute as @a[scores={dod_species_trigger=999}] if entity @e[tag=species_blacklist,tag=random_blacklist_blacklist] run function dod:misc/random_trigger_blacklist
 execute as @a[scores={dod_species_trigger=1}] if entity @e[tag=species_blacklist,tag=end_sprinter_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=2}] if entity @e[tag=species_blacklist,tag=skyborn_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=3}] if entity @e[tag=species_blacklist,tag=puffer_blacklist] run function dod:misc/species_trigger_blacklist
@@ -20,7 +23,7 @@ execute as @a[scores={dod_species_trigger=5}] if entity @e[tag=species_blacklist
 
 execute as @a if score @s dod_species_trigger matches 1.. run scoreboard players reset @s dod_species_trigger
 
-
+execute as @a[scores={dod_species_trigger_confirm=999}] run function dod:misc/for_every_species/rnd
 execute as @a[scores={dod_species_trigger_confirm=1}] run tag @s add end_sprinter
 execute as @a[scores={dod_species_trigger_confirm=2}] run tag @s add skyborn
 execute as @a[scores={dod_species_trigger_confirm=3}] run tag @s add puffer

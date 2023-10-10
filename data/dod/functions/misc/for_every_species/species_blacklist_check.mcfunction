@@ -14,10 +14,12 @@ execute if entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run tag @s
 execute if entity @s[tag=egg_shifter_has_been] run tag @s add egg_shifter_rnd_checked
 
 
-execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked] run function dod:misc/dev_functions/stop
+execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked] run tag @s add dod_rnd_has_all_species
 
 tag @s remove end_sprinter_rnd_checked
 tag @s remove skyborn_rnd_checked
 tag @s remove puffer_rnd_checked
 tag @s remove night_walker_rnd_checked
 tag @s remove egg_shifter_rnd_checked
+
+###Species Makrer
