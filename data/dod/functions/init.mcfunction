@@ -1,7 +1,7 @@
 ##Schedule
 schedule function dod:misc/2sec 2s replace
-schedule function dod:misc/clear_items 2s replace
-schedule function dod:misc/give_species_effects 10s replace
+schedule function dod:misc/for_every_species/clear_items 2s replace
+schedule function dod:misc/for_every_species/give_species_effects 10s replace
 
 ##Scoreboard Init
 scoreboard objectives add end_sprinter_right_click minecraft.used:warped_fungus_on_a_stick
@@ -15,6 +15,9 @@ scoreboard objectives add dod_nuzlock_1_is_on dummy
 scoreboard objectives add dod_random_species_1_is_on dummy
 scoreboard objectives add dod_species_trigger trigger
 scoreboard objectives add dod_species_trigger_confirm trigger
+scoreboard objectives add dod_random_store dummy
+
+
 
 #Team Init
 team add end_sprinter_marker_green

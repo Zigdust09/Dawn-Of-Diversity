@@ -1,66 +1,72 @@
-     ##kill any item for the loop
-execute positioned ~ ~5 ~ run kill @e[nbt={Item:{tag:{is_species_item:1}}},distance=..1]
-function dod:misc/species_remove
-#summon new item
-loot spawn ~ ~5 ~ loot dod:species_rnd_pick
+##breakpoint
+execute as @s[tag=end_sprinter_has_been,tag=skyborn_has_been,tag=puffer_has_been,tag=night_walker_has_been,tag=egg_shifter_has_been] run function dod:misc/dev_functions/stop
+
+
+##roll the value
+execute store result score @s dod_random_store run random roll 1..5 
 
 
 
 ##if you have it already go again
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:template}}},distance=..1] as @s[tag=template_has_been] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:template}}},distance=..1] as @s[tag=template] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:template}}},distance=..1] as @s[tag=!template,tag=!template_has_been] at @s run tellraw @a[distance=0..] [{"selector":"@p","bold":true,"italic":true},{"text":" Is now a Template"}]
+execute if score @s dod_random_store matches 1 as @s[tag=end_sprinter_has_been] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 1 as @s[tag=end_sprinter] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 1 if entity @e[tag=species_blacklist,tag=end_sprinter_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 1 as @s[tag=!end_sprinter,tag=!end_sprinter_has_been] at @s unless entity @e[tag=species_blacklist,tag=end_sprinter_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a End Sprinter"}]
 #gives you the tag
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:template}}},distance=..1] as @s[tag=!template,tag=!template_has_been] run function dod:species/template/template_rnd
-
-##if you have it already go again
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:end_sprinter}}},distance=..1] as @s[tag=end_sprinter_has_been] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:end_sprinter}}},distance=..1] as @s[tag=end_sprinter] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:end_sprinter}}},distance=..1] as @s[tag=!end_sprinter,tag=!end_sprinter_has_been] at @s run tellraw @a[distance=0..] [{"selector":"@p","bold":true,"italic":true},{"text":" Is now a End Sprinter"}]
-#gives you the tag
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:end_sprinter}}},distance=..1] as @s[tag=!end_sprinter,tag=!end_sprinter_has_been] run function dod:species/end_sprinter/end_sprinter_rnd
-
-
-##if you have it already go again
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:skyborn}}},distance=..1] as @s[tag=skyborn_has_been] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:skyborn}}},distance=..1] as @s[tag=skyborn] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:skyborn}}},distance=..1] as @s[tag=!skyborn,tag=!skyborn_has_been] at @s run tellraw @a[distance=0..] [{"selector":"@p","bold":true,"italic":true},{"text":" Is now a Skyborn"}]
-#gives you the tag
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:skyborn}}},distance=..1] as @s[tag=!skyborn,tag=!skyborn_has_been] run function dod:species/skyborn/skyborn_rnd
-
+execute if score @s dod_random_store matches 1 as @s[tag=!end_sprinter,tag=!end_sprinter_has_been] unless entity @e[tag=species_blacklist,tag=end_sprinter_blacklist] run function dod:species/end_sprinter/end_sprinter_rnd
 
 
 
 ##if you have it already go again
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:puffer}}},distance=..1] as @s[tag=puffer_has_been] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:puffer}}},distance=..1] as @s[tag=puffer] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:puffer}}},distance=..1] as @s[tag=!puffer,tag=!puffer_has_been] at @s run tellraw @a[distance=0..] [{"selector":"@p","bold":true,"italic":true},{"text":" Is now a Puffer"}]
+execute if score @s dod_random_store matches 2 as @s[tag=skyborn_has_been] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 2 as @s[tag=skyborn] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 2 if entity @e[tag=species_blacklist,tag=skyborn_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 2 as @s[tag=!skyborn,tag=!skyborn_has_been] at @s unless entity @e[tag=species_blacklist,tag=skyborn_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Skyborn"}]
 #gives you the tag
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:puffer}}},distance=..1] as @s[tag=!puffer,tag=!puffer_has_been] run function dod:species/puffer/puffer_rnd
-
-##if you have it already go again
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:night_walker}}},distance=..1] as @s[tag=night_walker_has_been] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:night_walker}}},distance=..1] as @s[tag=night_walker] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:night_walker}}},distance=..1] as @s[tag=!night_walker,tag=!night_walker_has_been] at @s run tellraw @a[distance=0..] [{"selector":"@p","bold":true,"italic":true},{"text":" Is now a Night Walker"}]
-#gives you the tag
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:night_walker}}},distance=..1] as @s[tag=!night_walker,tag=!night_walker_has_been] run function dod:species/night_walker/night_walker_rnd
+execute if score @s dod_random_store matches 2 as @s[tag=!skyborn,tag=!skyborn_has_been] unless entity @e[tag=species_blacklist,tag=skyborn_blacklist] run function dod:species/skyborn/skyborn_rnd
 
 
 
 ##if you have it already go again
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:egg_shifter}}},distance=..1] as @s[tag=egg_shifter_has_been] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:egg_shifter}}},distance=..1] as @s[tag=egg_shifter] positioned ~ ~-5 ~ run function dod:misc/rnd
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:egg_shifter}}},distance=..1] as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] at @s run tellraw @a[distance=0..] [{"selector":"@p","bold":true,"italic":true},{"text":" Is now a Egg Shifter"}]
+execute if score @s dod_random_store matches 3 as @s[tag=puffer_has_been] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 3 as @s[tag=puffer] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 3 if entity @e[tag=species_blacklist,tag=puffer_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 3 as @s[tag=!puffer,tag=!puffer_has_been] at @s unless entity @e[tag=species_blacklist,tag=puffer_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Puffer"}]
 #gives you the tag
-execute positioned ~ ~5 ~ if entity @e[nbt={Item:{tag:{species:egg_shifter}}},distance=..1] as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] run function dod:species/egg_shifter/egg_shifter_rnd
+execute if score @s dod_random_store matches 3 as @s[tag=!puffer,tag=!puffer_has_been] unless entity @e[tag=species_blacklist,tag=puffer_blacklist] run function dod:species/puffer/puffer_rnd
+
+
+
+##if you have it already go again
+execute if score @s dod_random_store matches 4 as @s[tag=night_walker_has_been] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 4 as @s[tag=night_walker] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 4 if entity @e[tag=species_blacklist,tag=night_walker_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 4 as @s[tag=!night_walker,tag=!night_walker_has_been] at @s unless entity @e[tag=species_blacklist,tag=night_walker_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Night Walker"}]
+#gives you the tag
+execute if score @s dod_random_store matches 4 as @s[tag=!night_walker,tag=!night_walker_has_been] unless entity @e[tag=species_blacklist,tag=night_walker_blacklist] run function dod:species/night_walker/night_walker_rnd
+
+
+
+##if you have it already go again
+execute if score @s dod_random_store matches 5 as @s[tag=egg_shifter_has_been] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 5 as @s[tag=egg_shifter] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 5 if entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] at @s unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Egg Shifter"}]
+#gives you the tag
+execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_rnd
+
+
+
+
+
+
+
+
 
 
 
 ### Species marker 
 
 
-##kills the leftover item
-execute positioned ~ ~5 ~ run kill @e[nbt={Item:{tag:{is_species_item:1}}},distance=..1]
 
 
-execute as @s[tag=end_sprinter_has_been,tag=skyborn_has_been,tag=puffer_has_been,tag=night_walker_has_been,tag=egg_shifter_has_been] run function dod:misc/stop

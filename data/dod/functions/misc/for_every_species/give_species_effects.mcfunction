@@ -15,4 +15,4 @@ execute as @a[tag=egg_shifter] run function dod:species/egg_shifter/egg_shifter_
 ### Species marker 
 
 ##rescheduals the function
-schedule function dod:misc/give_species_effects 10s append
+schedule function dod:misc/for_every_species/give_species_effects 10s append

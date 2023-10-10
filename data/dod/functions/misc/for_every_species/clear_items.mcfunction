@@ -7,4 +7,4 @@ clear @a[tag=!skyborn] leather_boots{skyborns_boots:1}
 
 clear @a[tag=!puffer] trident{puffers_trident:1}
 
-schedule function dod:misc/clear_items 2s append
+schedule function dod:misc/for_every_species/clear_items 2s append

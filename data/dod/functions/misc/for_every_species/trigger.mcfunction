@@ -1,6 +1,6 @@
 ##does the init
 execute unless score World dod_random_species_1_is_on matches 1 run scoreboard players enable @a[tag=!dod_species_trigger_enable] dod_species_trigger
-execute if score World dod_random_species_1_is_on matches 1 as @a[tag=!dod_species_trigger_enable] run function dod:misc/rnd
+##execute if score World dod_random_species_1_is_on matches 1 as @a[tag=!dod_species_trigger_enable] run function dod:misc/for_every_species/rnd
 tag @a[tag=!dod_species_trigger_enable] add dod_species_trigger_enable
 
 ##if no blacklist
@@ -30,5 +30,5 @@ execute as @a[scores={dod_species_trigger_confirm=5}] run tag @s add egg_shifter
 
 execute as @a if score @s dod_species_trigger_confirm matches 1.. run tag @s remove equip
 execute as @a if score @s dod_species_trigger_confirm matches 1.. run tag @s add has_species
-execute as @a if score @s dod_species_trigger_confirm matches 1.. run function dod:misc/health
+execute as @a if score @s dod_species_trigger_confirm matches 1.. run function od:misc/health/health
 execute as @a if score @s dod_species_trigger_confirm matches 1.. run scoreboard players reset @s dod_species_trigger_confirm
