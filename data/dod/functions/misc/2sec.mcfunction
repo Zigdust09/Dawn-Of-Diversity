@@ -1,6 +1,9 @@
 ##gives the book to new players
 function dod:misc/bookgive
 
+## adds the species manipulation code
+function dod:misc/species_manipulation_check
+
 
 ##runs the trigger commands
 function dod:misc/for_every_species/trigger
@@ -18,6 +21,5 @@ execute if score World dod_random_species_1_is_on matches 1 as @a[tag=!has_speci
 function dod:misc/pick_a_species
 
 
-## adds the species manipulation code
 
 

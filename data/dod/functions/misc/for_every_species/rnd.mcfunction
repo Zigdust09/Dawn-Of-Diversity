@@ -6,7 +6,7 @@ function dod:misc/for_every_species/species_blacklist_check
 scoreboard players set @s dod_random_store 0
 execute store result score @s dod_random_store run random value 1..5 
 
-
+scoreboard players reset @s dod_species_trigger
 
 ##if you have it already go again
 execute if score @s dod_random_store matches 1 as @s[tag=end_sprinter_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
@@ -56,7 +56,9 @@ execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_s
 #gives you the tag
 execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_rnd
 
-function dod:misc/dev_functions/stop
+
+
+return
 
 
 
