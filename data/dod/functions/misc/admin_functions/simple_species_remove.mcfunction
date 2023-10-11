@@ -7,3 +7,5 @@ tag @s remove puffer
 tag @s remove night_walker
 
 tag @s remove egg_shifter
+
+### Species marker 
