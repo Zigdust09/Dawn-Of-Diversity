@@ -1,4 +1,4 @@
-<div align=center><img src="logo.png" alt="Dawn of Diversity" width=30%/></div>
+<div align=center><img src="dod_logo.png" alt="Dawn of Diversity" width=30%/></div>
 
 <br>
 <br>
