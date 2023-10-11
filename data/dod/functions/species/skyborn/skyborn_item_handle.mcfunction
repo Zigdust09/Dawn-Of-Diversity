@@ -1,6 +1,2 @@
-##
- # skyborn_item_handle.mcfunction
- # 
- #
- # Created by .
-##
+give @s elytra{Unbreakable:1b,skyborns_elytra:1b,display:{Name:'{"text":"Skyborn\'s Elytra","italic":false}'}}
+give @s iron_boots{display:{Name:'{"text":"Skyborn\'s Boots","italic":false}'},Unbreakable:1b,skyborns_boots:1b,Enchantments:[{id:"minecraft:feather_falling",lvl:10s}]} 1

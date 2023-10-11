@@ -1,0 +1,1 @@
+execute as @s[tag=!equip] run function dod:species/night_walker/night_walker_item_handle

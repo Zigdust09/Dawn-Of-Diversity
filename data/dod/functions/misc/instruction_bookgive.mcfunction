@@ -1,1 +1,0 @@
-execute as @a[tag=!dod_book_given] run give @s written_book{display:{Name:'{"text":"Dawn Of Diversity Book","italic":false}',Lore:['{"text":"To choose your species"}']},title:"Dawn Of Diversity",author:"Zigdust09",pages:['[{"text":""},{"text":"You can mix species by throwing a nether star, a dragon scale, a echo shard and a sponge together on the ground."}]']} 1

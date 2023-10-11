@@ -1,0 +1,1 @@
+execute as @s[tag=!equip] run function dod:species/egg_shifter/egg_shifter_item_handle

@@ -12,6 +12,7 @@ scoreboard objectives add dod_skyborn_sneak dummy
 scoreboard objectives add dod_puffer_air dummy
 scoreboard objectives add dod_puffer_puff dummy
 scoreboard objectives add dod_nuzlock_1_is_on dummy
+scoreboard objectives add dod_permadeath_1_is_on dummy
 scoreboard objectives add dod_random_species_1_is_on dummy
 scoreboard objectives add dod_species_trigger trigger
 scoreboard objectives add dod_species_trigger_confirm trigger

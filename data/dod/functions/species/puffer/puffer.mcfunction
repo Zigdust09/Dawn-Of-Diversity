@@ -1,0 +1,1 @@
+execute as @s[tag=!equip] run function dod:species/puffer/puffer_item_handle
