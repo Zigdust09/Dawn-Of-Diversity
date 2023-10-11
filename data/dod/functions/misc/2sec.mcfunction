@@ -1,6 +1,15 @@
+
+
+execute unless score World dod_world_init matches 1 run function dod:world_init
+
+
+
+
 ##gives the book to new players
 execute if score World dod_random_species_1_is_on matches 0 run function dod:misc/book/bookgive
 execute if score World dod_random_species_1_is_on matches 1 run function dod:misc/book/instruction_bookgive
+
+
 
 
 

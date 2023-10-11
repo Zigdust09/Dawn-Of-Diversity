@@ -33,5 +33,6 @@ execute as @a[scores={dod_species_trigger_confirm=5}] run tag @s add egg_shifter
 
 execute as @a if score @s dod_species_trigger_confirm matches 1.. run tag @s remove equip
 execute as @a if score @s dod_species_trigger_confirm matches 1.. run tag @s add has_species
-execute as @a if score @s dod_species_trigger_confirm matches 1.. run function od:misc/health/health
+execute as @a if score @s dod_species_trigger_confirm matches 1.. run function dod:misc/health/health
+execute as @a if score @s dod_species_trigger_confirm matches 1.. run scoreboard players reset @s dod_species_trigger
 execute as @a if score @s dod_species_trigger_confirm matches 1.. run scoreboard players reset @s dod_species_trigger_confirm
