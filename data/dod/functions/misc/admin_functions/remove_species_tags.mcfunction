@@ -8,7 +8,7 @@ tag @a remove night_walker
 tag @a remove night_walker_has_been
 tag @a remove egg_shifter
 tag @a remove egg_shifter_has_been
+#insertbefore
 tag @a remove dod_rnd_has_all_species
-
 
 ### Species marker 

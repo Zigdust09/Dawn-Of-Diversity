@@ -8,7 +8,7 @@ tag @s remove night_walker
 
 tag @s remove egg_shifter
 
-tag @s remove TEST
+#insertbefore
 
 tag @s remove has_species
 

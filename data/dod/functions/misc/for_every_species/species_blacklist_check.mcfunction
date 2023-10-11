@@ -15,13 +15,15 @@ execute if entity @s[tag=egg_shifter_has_been] run tag @s add egg_shifter_rnd_ch
 
 
 execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked] run tag @s add dod_rnd_has_all_species
+#insertbefore2
+
 
 tag @s remove end_sprinter_rnd_checked
 tag @s remove skyborn_rnd_checked
 tag @s remove puffer_rnd_checked
 tag @s remove night_walker_rnd_checked
 tag @s remove egg_shifter_rnd_checked
-
+#insertbefore3
 
 
 

@@ -10,9 +10,9 @@ execute as @a[tag=night_walker] run function dod:species/night_walker/night_walk
 
 execute as @a[tag=egg_shifter] run function dod:species/egg_shifter/egg_shifter_effects
 
+execute as @a[tag=blorb16] run function dod:species/blorb16/blorb16_effects
 
-
-### Species marker 
+### Species marker
 
 ##rescheduals the function
 schedule function dod:misc/for_every_species/give_species_effects 10s append
