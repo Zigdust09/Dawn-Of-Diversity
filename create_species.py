@@ -174,9 +174,36 @@ def give_species_effects(species):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+
+
+
+
 def species_blacklist_check2(species):
     file_path = "./data/dod/functions/misc/for_every_species/species_blacklist_check.mcfunction"
-    text_to_add = "\n" + "tag @s remove" + species  + "_rnd_checked" + "\n"
+    text_to_add = ",tag=" + species + "_rnd_checked"
 
     # Read the contents of the file
     with open(file_path, "r") as file:
@@ -187,15 +214,31 @@ def species_blacklist_check2(species):
     index = 0
     for i, line in enumerate(lines):
         if line.strip() == target_line:
-            index = i
+            index = i 
             break
+    
+    with open(file_path, "r") as file:
+        correct_text= file.readlines()
+        print(correct_text[index-1])
+        
+
+    text_to_remove = "] run tag @s add dod_rnd_has_all_species"
+
+    if correct_text.endswith(text_to_remove):
+        modified_string = correct_text[:-len(text_to_remove)]
+    else:
+        modified_string = correct_text
+        
+    modified_string = modified_string + text_to_add + text_to_remove
+
+        
 
     # Insert the text before the target line
-    lines.insert(index, text_to_add)
+    #lines.insert(index, modified_string)
 
     # Write the modified contents back to the file
-    with open(file_path, "w") as file:
-        file.writelines(lines)
+    #with open(file_path, "w") as file:
+        #file.writelines(lines)
 
 
 
@@ -234,5 +277,12 @@ def species_blacklist_check3(species):
 
 
 
+
+
+
+
+
+
+
 species_name = input("Species name: ")
-species_blacklist_check3(species_name)
+species_blacklist_check2(species_name)
