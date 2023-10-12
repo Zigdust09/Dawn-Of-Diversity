@@ -13,12 +13,6 @@ execute if entity @s[tag=night_walker_has_been] run tag @s add night_walker_rnd_
 execute if entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run tag @s add egg_shifter_rnd_checked
 execute if entity @s[tag=egg_shifter_has_been] run tag @s add egg_shifter_rnd_checked
 
-execute if entity @e[tag=species_blacklist,tag=blorb52_blacklist] run tag @s add blorb52_rnd_checked
-execute if entity @s[tag=blorb52_has_been] run tag @s add blorb52_rnd_checked
-
-execute if entity @e[tag=species_blacklist,tag=blorb53_blacklist] run tag @s add blorb53_rnd_checked
-execute if entity @s[tag=blorb53_has_been] run tag @s add blorb53_rnd_checked
-
 #insertbefore1
 
 

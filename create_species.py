@@ -1,7 +1,15 @@
+import os
+
 def proper_name(species):
     proper_name = species.replace("_", " ")
     proper_name = proper_name.title()
     return proper_name
+
+
+
+
+
+
 
 def species_remove(species):
     file_path = "./data/dod/functions/misc/admin_functions/species_remove.mcfunction"
@@ -311,6 +319,12 @@ def species_blacklist_check3(species):
         file.writelines(lines)
 
 
+
+
+
+
+
+
 def species_run(species):
     file_path = "./data/dod/functions/misc/for_every_species/species_run.mcfunction"
     text_to_add = "execute as @s[tag={0}] at @s run function dod:species/{0}/{0}".format(species) + "\n\n"
@@ -335,12 +349,23 @@ def species_run(species):
         file.writelines(lines)
 
 
-def speciestell(species):
-    file_path = "./data/dod/functions/misc/triggers/speciestell.mcfunction"
-    proper_name = species.replace("_", " ")
-    proper_name = proper_name.title()
-    text_to_add = "tellraw @a[scores={dod_what_species_am_i=1..},tag={0}] \"You are a {proper_name}\"".format(species) + "\n\n"
 
+
+
+
+
+
+
+
+def rnd(species,number):
+    file_path = "./data/dod/functions/misc/for_every_species/rnd.mcfunction"
+    text_to_add = """## if you have it already, go again
+    execute if score @s dod_random_store matches {1} as @s[tag={0}_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+    execute if score @s dod_random_store matches {1} as @s[tag={0},tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+    execute if score @s dod_random_store matches {1} as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:misc/for_every_species/rnd
+    execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_been] at @s unless entity @e[tag=species_blacklist,tag={0}_blacklist] run tellraw @a[distance=0..] [""" + "{" + """selector":"@s","bold":false,"italic":false""" + "}" + """,""" + "{" + """"text":" Is now a {1} {0}""" + "{" + """]
+    execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_been] unless entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:species/{0}/{0}_rnd""".format(species,number) + "\n\n\n"
+ 
     # Read the contents of the file
     with open(file_path, "r") as file:
         lines = file.readlines()
@@ -367,5 +392,179 @@ def speciestell(species):
 
 
 
+
+
+
+
+
+
+
+def trigger1(species,number):
+    file_path = "./data/dod/functions/misc/for_every_species/trigger.mcfunction"
+    text_to_add = "execute as @a[scores={dod_species_trigger=" + number + "}" + "] unless entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:species/{0}/{0}_confirm".format(species) + "\n"
+
+    # Read the contents of the file
+    with open(file_path, "r") as file:
+        lines = file.readlines()
+        
+    # Find the line to insert before
+    target_line = "#insertbefore1"
+    index = 0
+    for i, line in enumerate(lines):
+        if line.strip() == target_line:
+            index = i
+            break
+
+    # Insert the text before the target line
+    lines.insert(index, text_to_add)
+
+    # Write the modified contents back to the file
+    with open(file_path, "w") as file:
+        file.writelines(lines)
+
+
+
+
+
+
+
+
+
+
+
+
+
+def trigger2(species,number):
+    file_path = "./data/dod/functions/misc/for_every_species/trigger.mcfunction"
+    text_to_add = "execute as @a[scores={dod_species_trigger=" + number + "}" + "] if entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:misc/species_trigger_blacklist".format(species) + "\n"
+
+    # Read the contents of the file
+    with open(file_path, "r") as file:
+        lines = file.readlines()
+        
+    # Find the line to insert before
+    target_line = "#insertbefore2"
+    index = 0
+    for i, line in enumerate(lines):
+        if line.strip() == target_line:
+            index = i
+            break
+
+    # Insert the text before the target line
+    lines.insert(index, text_to_add)
+
+    # Write the modified contents back to the file
+    with open(file_path, "w") as file:
+        file.writelines(lines)
+
+
+
+
+
+
+
+
+
+
+
+
+
+def trigger3(species,number):
+    file_path = "./data/dod/functions/misc/for_every_species/trigger.mcfunction"
+    text_to_add = "execute as @a[scores={dod_species_trigger_confirm=" + number + "}" + "] run tag @s add {0}".format(species) + "\n"
+
+    # Read the contents of the file
+    with open(file_path, "r") as file:
+        lines = file.readlines()
+        
+    # Find the line to insert before
+    target_line = "#insertbefore3"
+    index = 0
+    for i, line in enumerate(lines):
+        if line.strip() == target_line:
+            index = i
+            break
+
+    # Insert the text before the target line
+    lines.insert(index, text_to_add)
+
+    # Write the modified contents back to the file
+    with open(file_path, "w") as file:
+        file.writelines(lines)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def speciestell(species):
+    file_path = "./data/dod/functions/misc/triggers/speciestell.mcfunction"
+    species_name = proper_name(species)
+    text_to_add = "tellraw @a[scores={dod_what_species_am_i=1..}," + "tag={0}] \"You are a {1}\"".format(species, species_name) + "\n"
+
+    # Read the contents of the file
+    with open(file_path, "r") as file:
+        lines = file.readlines()
+        
+    # Find the line to insert before
+    target_line = "#insertbefore"
+    index = 0
+    for i, line in enumerate(lines):
+        if line.strip() == target_line:
+            index = i
+            break
+
+    # Insert the text before the target line
+    lines.insert(index, text_to_add)
+
+    # Write the modified contents back to the file
+    with open(file_path, "w") as file:
+        file.writelines(lines)
+
+
+
+
+
+def create_files(species):
+    return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 species_name = input("Species name: ")
-species_run(species_name)
+species_number = input("Species numer: ")
+# i typed numer instead of number by mistake and i thought it was funny, i wanted to keep the typo but x didnt, so we had a silent war for about 40 min before we finally settled on this (he didnt even accept my complimentary #b compremise)
+
+rnd(species_name,species_number)
+
+
+# If you are reading this you are probably smarter than us -xWires
