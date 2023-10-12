@@ -58,6 +58,9 @@ execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_s
 execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_rnd
 
 
+
+#insertbefore
+
 function dod:misc/dev_functions/stop
 
 

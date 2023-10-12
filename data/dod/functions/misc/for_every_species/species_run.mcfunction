@@ -10,4 +10,5 @@ execute as @s[tag=night_walker] at @s run function dod:species/night_walker/nigh
 
 execute as @s[tag=egg_shifter] at @s run function dod:species/egg_shifter/egg_shifter
 
+#insertbefore
 ### Species marker 
