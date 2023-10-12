@@ -58,15 +58,6 @@ execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_s
 execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_rnd
 
 
-
-## if you have it already, go again
-    execute if score @s dod_random_store matches {1} as @s[tag={0}_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
-    execute if score @s dod_random_store matches {1} as @s[tag={0},tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
-    execute if score @s dod_random_store matches {1} as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:misc/for_every_species/rnd
-    execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_been] at @s unless entity @e[tag=species_blacklist,tag={0}_blacklist] run tellraw @a[distance=0..] [{selector":"@s","bold":false,"italic":false},{"text":" Is now a {1} {0}{]
-    execute if score @s dod_random_store matches 6 as @s[tag=!blorb74,tag=!blorb74_has_been] unless entity @e[tag=species_blacklist,tag=blorb74_blacklist] run function dod:species/blorb74/blorb74_rnd
-
-
 #insertbefore
 
 function dod:misc/dev_functions/stop

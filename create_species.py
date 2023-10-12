@@ -360,11 +360,11 @@ def species_run(species):
 def rnd(species,number):
     file_path = "./data/dod/functions/misc/for_every_species/rnd.mcfunction"
     text_to_add = """## if you have it already, go again
-    execute if score @s dod_random_store matches {1} as @s[tag={0}_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
-    execute if score @s dod_random_store matches {1} as @s[tag={0},tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
-    execute if score @s dod_random_store matches {1} as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:misc/for_every_species/rnd
-    execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_been] at @s unless entity @e[tag=species_blacklist,tag={0}_blacklist] run tellraw @a[distance=0..] [""" + "{" + """selector":"@s","bold":false,"italic":false""" + "}" + """,""" + "{" + """"text":" Is now a {1} {0}""" + "{" + """]
-    execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_been] unless entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:species/{0}/{0}_rnd""".format(species,number) + "\n\n\n"
+execute if score @s dod_random_store matches {1} as @s[tag={0}_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches {1} as @s[tag={0},tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches {1} as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_been] at @s unless entity @e[tag=species_blacklist,tag={0}_blacklist] run tellraw @a[distance=0..] [""".format(species,number) + "{" + """"selector":"@s","bold":false,"italic":false""".format(species,number) + "},{" + """"text":" Is now a {2}\"""".format(species,number,proper_name(species)) + "}" + """]
+execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_been] unless entity @e[tag=species_blacklist,tag={0}_blacklist] run function dod:species/{0}/{0}_rnd""".format(species,number) + "\n\n\n\n"
  
     # Read the contents of the file
     with open(file_path, "r") as file:
@@ -384,6 +384,115 @@ def rnd(species,number):
     # Write the modified contents back to the file
     with open(file_path, "w") as file:
         file.writelines(lines)
+
+
+
+#""" + "{" + """
+
+
+
+#tysmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+def files(species,number):
+    os.mkdir("./data/dod/functions/species/{0}".format(species))
+    open("./data/dod/functions/species/{0}/{0}_confirm.mcfunction".format(species), "x")
+    open("./data/dod/functions/species/{0}/{0}_effects.mcfunction".format(species), "x")
+    open("./data/dod/functions/species/{0}/{0}_item_handle.mcfunction".format(species), "x")
+    open("./data/dod/functions/species/{0}/{0}_rnd.mcfunction".format(species), "x")
+    open("./data/dod/functions/species/{0}/{0}.mcfunction".format(species), "x")
+
+    file_path = "./data/dod/functions/species/{0}/{0}_confirm.mcfunction".format(species)
+    with open(file_path, "w") as file:
+        file.writelines("""scoreboard players enable @s dod_species_trigger_confirm
+scoreboard players reset @s dod_species_trigger
+scoreboard players enable @s dod_species_trigger
+tellraw @s """ + "{" + """"text":"=-------------------=","color":"gold"}
+tellraw @s """ + "{" + """"text":"Dawn of Diversity confirm:","color":"gold"}
+
+tellraw @s [""" + "{" + """"text":"Are you sure you want to pick \n{0}? : ","color":"aqua","clickEvent":""".format(proper_name(species)) + "{" + """"action":"run_command","value":"/trigger dod_species_trigger_confirm set {0}\""""".format(number) + "}}" + """,""" + "{" + """"text":"[Confirm]","color":"green"}]
+
+
+
+tellraw @s """ + "{" + """"text":"=-------------------=","color":"gold"}""")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -534,16 +643,6 @@ def speciestell(species):
 
 
 
-def create_files(species):
-    return
-
-
-
-
-
-
-
-
 
 
 
@@ -561,10 +660,10 @@ def create_files(species):
 
 
 species_name = input("Species name: ")
-species_number = input("Species numer: ")
+species_number = input("Species numebr: ")
 # i typed numer instead of number by mistake and i thought it was funny, i wanted to keep the typo but x didnt, so we had a silent war for about 40 min before we finally settled on this (he didnt even accept my complimentary #b compremise)
 
-rnd(species_name,species_number)
+files(species_name,species_number)
 
 
 # If you are reading this you are probably smarter than us -xWires
