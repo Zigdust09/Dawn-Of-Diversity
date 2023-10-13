@@ -357,6 +357,12 @@ def species_run(species):
 
 
 
+
+
+
+
+
+
 def rnd(species,number):
     file_path = "./data/dod/functions/misc/for_every_species/rnd.mcfunction"
     text_to_add = """## if you have it already, go again
@@ -393,6 +399,21 @@ execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_bee
 
 #tysmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def files(species,number):
     os.mkdir("./data/dod/functions/species/{0}".format(species))
     open("./data/dod/functions/species/{0}/{0}_confirm.mcfunction".format(species), "x")
@@ -409,83 +430,22 @@ scoreboard players enable @s dod_species_trigger
 tellraw @s """ + "{" + """"text":"=-------------------=","color":"gold"}
 tellraw @s """ + "{" + """"text":"Dawn of Diversity confirm:","color":"gold"}
 
-tellraw @s [""" + "{" + """"text":"Are you sure you want to pick \n{0}? : ","color":"aqua","clickEvent":""".format(proper_name(species)) + "{" + """"action":"run_command","value":"/trigger dod_species_trigger_confirm set {0}\""""".format(number) + "}}" + """,""" + "{" + """"text":"[Confirm]","color":"green"}]
+tellraw @s [""" + "{" + """"text":"Are you sure you want to pick \\n{0}? : ","color":"aqua","clickEvent":""".format(proper_name(species)) + "{" + """"action":"run_command","value":"/trigger dod_species_trigger_confirm set {0}\"""".format(number) + "}}" + """,""" + "{" + """"text":"[Confirm]","color":"green"}]
 
 
 
-tellraw @s """ + "{" + """"text":"=-------------------=","color":"gold"}""")
+tellraw @s """ + "{" + """\"text":"=-------------------=","color":"gold"}""")
+        
+    file_path = "./data/dod/functions/species/{0}/{0}_rnd.mcfunction".format(species)
+    with open(file_path, "w") as file:
+        file.writelines("""tag @s add {0}_has_been
+tag @s add {0}
+tag @s add has_species""".format(species))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    file_path = "./data/dod/functions/species/{0}/{0}.mcfunction".format(species)
+    with open(file_path, "w") as file:
+        file.writelines("""execute as @s[tag=!equip] run function dod:species/{0}/{0}_item_handle""".format(species))
 
 
 
@@ -651,6 +611,127 @@ def speciestell(species):
 
 
 
+def bookgivebasic(species,number):
+    file_path = "./data/dod/functions/misc/book/bookgivebasic.mcfunction"
+    text_to_add = ",{" + """\"text":\"""" + "\\" + "\\" + """n""" + "\\" + "\\" + """n{0}","color":"red","bold":true,"underlined":true,"hoverEvent":""".format(species,number) + "{" + """\"action":"show_text","value":[""" + "{" + """\"text":"-A""" + "\\" + "\\" + """n-B""" + "\\" + "\\" + """n-C\"""" + "}" + """]""" + "}" + ""","clickEvent":""" + "{" + """\"action":"run_command","value":"/trigger dod_species_trigger set {0}\"""".format(number) + "}}" + """""".format(species,number)
+    text_to_remove = """]]']} 1"""
+    text_to_also_add = """]']} 1"""
+
+    # Read the contents of the file
+    with open(file_path, "r") as file:
+        lines = file.readlines()
+        
+    # Find the line to insert before
+    target_line = "#insertbefore"
+    index = 0
+    for i, line in enumerate(lines):
+        if line.strip() == target_line:
+            index = i-1
+            break
+    
+    read_string = str(lines[index])
+
+    
+    new_text = read_string[:-len(text_to_remove)]
+
+    
+    next_text = new_text + text_to_add + text_to_also_add + "\n"
+    print(next_text)
+
+
+    # Read the contents of the file
+    with open(file_path, "r") as file:
+        lines2 = file.readlines()
+        
+    # Find the line to insert before
+    target_line = "#insertbefore"
+    index2 = 0
+    for i, line2 in enumerate(lines2):
+        if line2.strip() == target_line:
+            index2 = i-1
+            break
+        
+
+    lines2[index2] = next_text
+    with open(file_path, "w") as file:
+        file.writelines(lines2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -660,10 +741,10 @@ def speciestell(species):
 
 
 species_name = input("Species name: ")
-species_number = input("Species numebr: ")
+species_number = input("Species numer: ")
 # i typed numer instead of number by mistake and i thought it was funny, i wanted to keep the typo but x didnt, so we had a silent war for about 40 min before we finally settled on this (he didnt even accept my complimentary #b compremise)
 
-files(species_name,species_number)
+bookgivebasic(species_name,species_number)
 
 
 # If you are reading this you are probably smarter than us -xWires
