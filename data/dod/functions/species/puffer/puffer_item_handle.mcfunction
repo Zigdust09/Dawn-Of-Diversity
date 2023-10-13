@@ -1,6 +1,1 @@
-##
- # puffer_item_handle.mcfunction
- # 
- #
- # Created by .
-##
+give @s trident{display:{Name:'{"text":"Puffers Trident","color":"dark_blue","italic":false}'},HideFlags:7,Unbreakable:1b,puffers_trident:1b,Enchantments:[{id:"minecraft:loyalty",lvl:3s}]} 1

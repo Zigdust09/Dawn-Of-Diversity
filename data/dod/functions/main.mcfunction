@@ -1,5 +1,5 @@
 ##run species code
-execute as @a as @s unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:misc/for_every_species/species_run
+execute as @a at @s unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:misc/for_every_species/species_run
 
 
 ##does all species check
@@ -9,6 +9,7 @@ execute as @a run function dod:misc/for_every_species/species_blacklist_check
 execute as @e[scores={dod_health_respawn=1..}] run function dod:misc/respawn_code
 scoreboard players reset @a dod_health_respawn_walk
 
+execute as @a store result score @s dod_fall_distace run data get entity @s FallDistance 0.5
 
 
 
