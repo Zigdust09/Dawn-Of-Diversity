@@ -39,6 +39,8 @@ function dod:misc/pick_a_species
 ##runs the code to remove has species tags if always cycle is on
 execute if score World dod_always_cycle_1_is_on matches 1 as @a run function dod:misc/admin_functions/remove_has_species
 
+execute as @a store result score @s dod_hunger_level run data get entity @s foodLevel
+
 ##runs the equip code
 function dod:misc/triggers/equip
 

@@ -159,7 +159,7 @@ def species_remove_nuzlock(species):
 
 def give_species_effects(species):
     file_path = "./data/dod/functions/misc/for_every_species/give_species_effects.mcfunction"
-    text_to_add = "execute as @a[tag={0}] run function dod:species/{0}/{0}_effects".format(species) + "\n\n"
+    text_to_add = "execute as @a[tag={0}] " + """unless entity @e[distance=0..30,nbt={Item:{id:\"minecraft:netherite_block\",Count:1b}}]""" + "run function dod:species/{0}/{0}_effects".format(species) + "\n\n"
 
     # Read the contents of the file
     with open(file_path, "r") as file:

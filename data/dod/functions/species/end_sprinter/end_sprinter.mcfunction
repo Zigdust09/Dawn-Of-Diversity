@@ -10,3 +10,6 @@ execute as @s[scores={end_sprinter_right_click=1..}] run scoreboard players set 
 
 scoreboard players remove @s[scores={dod_end_sprinter_cooldown=1..}] dod_end_sprinter_cooldown 1
 
+effect give @e[type=enderman,distance=..5] weakness 1 255 true
+effect give @e[type=endermite,distance=..5] weakness 1 255 true
+
