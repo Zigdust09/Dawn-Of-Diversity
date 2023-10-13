@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Teleport","color":"dark_purple","italic":false}',Lore:['{"text":"Teleports up to 60 block away"}','{"text":"as long as it hits somthing."}']},Unbreakable:1b,CustomModelData:2008001001,end_sprinters_wand:1b} 1
