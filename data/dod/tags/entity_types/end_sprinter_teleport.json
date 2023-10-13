@@ -1,5 +1,6 @@
 {
      "values": [
+<<<<<<< HEAD
           "minecraft:player",
           "item",
           "painting",
@@ -7,6 +8,19 @@
           "glow_item_frame", 
           "experience_orb",
           "eye_of_ender",
+=======
+          "item",
+          "painting",
+          "item_frame",
+          "glow_item_frame",
+          "arrow",
+          "spectral_arrow",
+          "egg",
+          "snowball",
+          "experience_orb",
+          "eye_of_ender",
+          "dragon_fireball",
+>>>>>>> b1a332f (started on end sprinter wawa)
           "end_crystal",
           "boat",
           "chest_boat",
@@ -16,6 +30,7 @@
           "furnace_minecart",
           "spawner_minecart",
           "command_block_minecart",
+<<<<<<< HEAD
           "experience_orb",
           "falling_block",
           "firework_rocket",
@@ -24,6 +39,21 @@
           "marker",
           "armor_stand",
           "area_effect_cloud",
+=======
+          "evoker_fangs",
+          "experience_orb",
+          "falling_block",
+          "fireball",
+          "firework_rocket",
+          "fishing_bobber",
+          "leash_knot",
+          "llama_spit",
+          "marker",
+          "armor_stand",
+          "area_effect_cloud",
+          "shulker_bullet",
+          "small_fireball",
+>>>>>>> b1a332f (started on end sprinter wawa)
           "trident",
           "potion",
           "lightning_bolt"

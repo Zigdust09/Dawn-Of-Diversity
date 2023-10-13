@@ -17,6 +17,9 @@ scoreboard objectives add dod_random_species_1_is_on dummy
 scoreboard objectives add dod_species_trigger trigger
 scoreboard objectives add dod_species_trigger_confirm trigger
 scoreboard objectives add dod_random_store dummy
+
+scoreboard objectives add dod_end_sprinter_raycast dummy
+scoreboard objectives add dod_end_sprinter_cooldown dummy
 scoreboard objectives add dod_species_change_limit dummy
 scoreboard objectives add dod_world_init dummy
 
