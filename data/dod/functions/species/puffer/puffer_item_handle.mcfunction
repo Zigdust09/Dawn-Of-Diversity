@@ -1,1 +1,1 @@
-give @s trident{display:{Name:'{"text":"Puffers Trident","color":"dark_blue","italic":false}'},HideFlags:7,Unbreakable:1b,puffers_trident:1b,Enchantments:[{id:"minecraft:loyalty",lvl:3s}]} 1
+give @s trident{display:{Name:'{"text":"Puffers Trident","color":"dark_blue","italic":false}'},Unbreakable:1b,puffers_trident:1b,Enchantments:[{id:"minecraft:loyalty",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.1,Operation:0,UUID:[I;-691354396,-412466445,-2105797251,1489629932]}]} 1

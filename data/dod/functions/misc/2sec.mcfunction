@@ -47,4 +47,6 @@ function dod:misc/triggers/equip
 ##runs the speciestell code code
 function dod:misc/triggers/speciestell
 
+function dod:species/night_walker/night_walker_effects_2
+
 
