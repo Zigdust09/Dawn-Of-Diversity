@@ -1,1 +1,4 @@
-effect give @s night_vision 15 0 true
+effect give @s night_vision 20 0 true
+
+
+
