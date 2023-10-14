@@ -10,8 +10,10 @@ execute as @e[scores={dod_health_respawn=1..}] run function dod:misc/respawn_cod
 scoreboard players reset @a dod_health_respawn_walk
 
 execute as @a store result score @s dod_fall_distace run data get entity @s FallDistance 0.5
+execute as @a store result score @s dod_hp run data get entity @s Health 1
 
 
+function dod:misc/food_score_reset
 
 ##stored y value
 execute as @a store result score @s dod_species_y run data get entity @s Pos[1]
