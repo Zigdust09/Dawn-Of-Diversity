@@ -8,7 +8,7 @@ execute positioned ~ ~1 ~ if predicate dod:watercheck run scoreboard players set
 data modify storage dod:puffer_air air set value {"air":0}
 execute store result storage dod:puffer_air air.air int 0.05 run scoreboard players get @s dod_puffer_air
 function dod:species/puffer/puffer_air with storage dod:puffer_air air
-     e
+
 
 effect give @s[nbt={SelectedItem:{id:"minecraft:trident"}}] strength 1 0 true
 
@@ -16,18 +16,4 @@ execute as @s[scores={dod_puffer_thrown_trident=1..}] run tag @e[type=trident,di
 scoreboard players reset @s dod_puffer_thrown_trident
 
 #execute as @e[type=trident,tag=puffer_trident,nbt={inGround:1b},tag=!puffer_trident_check] at @s rotated as @p[tag=puffer] run fill ^ ^ ^0.3 ^ ^ ^0.3 air destroy
-execute as @e[type=trident,tag=puffer_trident,nbt={inGround:1b},tag=!puffer_trident_check] at @s run tag @s add puffer_trident_check
-execute as @e[type=trident,tag=puffer_trident] at @s run tp @e[type=tnt,distance=..3,limit=1,sort=nearest] ~ ~ ~
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=tnt,distance=..3,limit=1,sort=nearest] Motion[0] double 0.3 run data get entity @s Motion[0] 1
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=tnt,distance=..3,limit=1,sort=nearest] Motion[1] double 0.3 run data get entity @s Motion[1] 1
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=tnt,distance=..3,limit=1,sort=nearest] Motion[2] double 0.3 run data get entity @s Motion[2] 1
 
-execute as @e[type=trident,tag=puffer_trident] at @s run tp @e[type=item,distance=..3,limit=1,sort=nearest] ~ ~ ~
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=item,distance=..3,limit=1,sort=nearest] Motion[0] double 0.3 run data get entity @s Motion[0] 1
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=item,distance=..3,limit=1,sort=nearest] Motion[1] double 0.3 run data get entity @s Motion[1] 1
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=item,distance=..3,limit=1,sort=nearest] Motion[2] double 0.3 run data get entity @s Motion[2] 1
-
-execute as @e[type=trident,tag=puffer_trident] at @s run tp @e[type=arrow,distance=..3,limit=1,sort=nearest] ~ ~ ~
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=arrow,distance=..3,limit=1,sort=nearest] Motion[0] double 0.3 run data get entity @s Motion[0] 1
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=arrow,distance=..3,limit=1,sort=nearest] Motion[1] double 0.3 run data get entity @s Motion[1] 1
-execute as @e[type=trident,tag=puffer_trident] at @s store result entity @e[type=arrow,distance=..3,limit=1,sort=nearest] Motion[2] double 0.3 run data get entity @s Motion[2] 1
