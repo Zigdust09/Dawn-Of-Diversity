@@ -1,0 +1,27 @@
+{
+     "values": [
+          "minecraft:player",
+          "painting",
+          "item_frame",
+          "glow_item_frame",
+          "experience_orb",
+          "eye_of_ender",
+          "end_crystal",
+          "boat",
+          "chest_boat",
+          "minecart",
+          "tnt_minecart",
+          "chest_minecart",
+          "furnace_minecart",
+          "spawner_minecart",
+          "command_block_minecart",
+          "evoker_fangs",
+          "experience_orb",
+          "firework_rocket",
+          "fishing_bobber",
+          "leash_knot",
+          "marker",
+          "area_effect_cloud",
+          "lightning_bolt"
+     ]
+}

@@ -8,7 +8,7 @@ schedule function dod:misc/1sec 1s replace
 
 
 ##Scoreboard Init
-scoreboard objectives add end_sprinter_right_click minecraft.used:warped_fungus_on_a_stick
+scoreboard objectives add dod_warped_right_click minecraft.used:warped_fungus_on_a_stick
 scoreboard objectives add dod_health_respawn minecraft.custom:deaths
 scoreboard objectives add dod_health_respawn_walk minecraft.custom:walk_one_cm
 scoreboard objectives add dod_species_y dummy
@@ -29,6 +29,15 @@ scoreboard objectives add dod_end_sprinter_raycast dummy
 scoreboard objectives add dod_end_sprinter_cooldown dummy
 scoreboard objectives add dod_species_change_limit dummy
 scoreboard objectives add dod_world_init dummy
+
+
+scoreboard objectives add movement_1x dummy
+scoreboard objectives add movement_1y dummy
+scoreboard objectives add movement_1z dummy
+
+scoreboard objectives add movement_2x dummy
+scoreboard objectives add movement_2y dummy
+scoreboard objectives add movement_2z dummy
 
 
 
@@ -71,12 +80,6 @@ scoreboard objectives add dod_potions_drank minecraft.used:minecraft.glass_bottl
 
 
 #Team Init
-team add end_sprinter_marker_green
-team add end_sprinter_marker_yellow
-team add end_sprinter_marker_red
-team modify end_sprinter_marker_green color green
-team modify end_sprinter_marker_yellow color yellow
-team modify end_sprinter_marker_red color red
 
 team add egg_shifter 
 team modify egg_shifter collisionRule never

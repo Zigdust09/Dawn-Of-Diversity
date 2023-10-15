@@ -20,3 +20,8 @@ execute as @a store result score @s dod_species_y run data get entity @s Pos[1]
 
 ##addes equip tag
 tag @a[tag=!equip] add equip
+
+execute if entity @a[tag=puffer] run function dod:species/puffer/puffer_trident
+#function dod:species/puffer/puffer_trident
+
+
