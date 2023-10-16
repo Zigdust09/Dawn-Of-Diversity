@@ -5,6 +5,7 @@ schedule function dod:misc/for_every_species/give_species_effects 10s replace
 schedule function dod:species/end_sprinter/end_sprinter_1sec 1s replace
 schedule function dod:species/puffer/puffer_1_sec 1s replace
 schedule function dod:misc/1sec 1s replace
+schedule function dod:species/egg_shifter/egg_shifter_timeloop 1s replace
 
 
 ##Scoreboard Init
@@ -12,10 +13,12 @@ scoreboard objectives add dod_warped_right_click minecraft.used:warped_fungus_on
 scoreboard objectives add dod_health_respawn minecraft.custom:deaths
 scoreboard objectives add dod_health_respawn_walk minecraft.custom:walk_one_cm
 scoreboard objectives add dod_species_y dummy
+scoreboard objectives add dod_egg_shifter_time dummy
 scoreboard objectives add dod_skyborn_sneak dummy
 scoreboard objectives add dod_puffer_air dummy
 scoreboard objectives add dod_hp dummy
 scoreboard objectives add dod_nuzlock_1_is_on dummy
+scoreboard objectives add dod_egg_shifter_gamemode dummy
 scoreboard objectives add dod_permadeath_1_is_on dummy
 scoreboard objectives add dod_random_species_1_is_on dummy
 scoreboard objectives add dod_puffer_thrown_trident minecraft.used:minecraft.trident

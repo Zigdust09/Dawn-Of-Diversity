@@ -13,6 +13,9 @@ execute as @a store result score @s dod_fall_distace run data get entity @s Fall
 execute as @a store result score @s dod_hp run data get entity @s Health 1
 
 
+execute as @a[tag=egg_shifter,predicate=dod:sneak,nbt={SelectedItem:{id:"minecraft:feather"},egg_shifters_feather:1b}] run item modify entity @s weapon.mainhand dod:egg_shifter_feather
+
+
 function dod:misc/food_score_reset
 
 ##stored y value
@@ -25,3 +28,11 @@ execute if entity @a[tag=puffer] run function dod:species/puffer/puffer_trident
 #function dod:species/puffer/puffer_trident
 
 
+execute if entity @a[tag=egg_shifter] run function dod:species/egg_shifter/chicken_run
+
+
+
+scoreboard players remove @a dod_egg_shifter_gamemode 1
+gamemode survival @a[scores={dod_egg_shifter_gamemode=1},egg_shifter_smoke]
+tag @a[scores={dod_egg_shifter_gamemode=1},egg_shifter_smoke] remove egg_shifter_smoke
+execute as @e[type=egg,nbt={Item:{tag:{egg_shifter_rotten_egg:1b}}}] at @s run function dod:species/egg_shifter/egg_run

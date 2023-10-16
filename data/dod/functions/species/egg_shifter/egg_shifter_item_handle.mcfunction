@@ -1,0 +1,1 @@
+give @s feather{display:{Name:'{"text":"Egg Shifter\'s Feather","italic":false}'},egg_shifters_feather:1b} 1
