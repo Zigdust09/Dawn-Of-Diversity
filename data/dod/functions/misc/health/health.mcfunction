@@ -2,6 +2,7 @@
 ##sets the health
 attribute @s[tag=end_sprinter] generic.max_health modifier add b4f655e8-c3be-4279-930e-07370ee99520 "end_sprinter" -4 add
      
+attribute @s[tag=egg_shifter] generic.attack_damage modifier add d436f500-09a9-451c-b9f8-2ff3e80ecfca "egg_shifter_default_dmg" -10 add
 attribute @s[tag=egg_shifter] generic.max_health modifier add 45c0c897-a8f5-4711-a73e-99c9dea59cf6 "egg_shifter" -2 add
 
 ##resets everything

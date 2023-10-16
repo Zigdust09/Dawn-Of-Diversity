@@ -8,4 +8,6 @@ clear @a[tag=!skyborn] iron_boots{skyborns_boots:1b}
 
 clear @a[tag=!puffer] trident{puffers_trident:1b}
 
+clear @a[tag=!egg_shifter] feather{egg_shifters_feather:1b}
+
 schedule function dod:misc/for_every_species/clear_items 2s append
