@@ -42,7 +42,7 @@ def species_remove(species):
 
 def remove_has_species(species):
     file_path = "./data/dod/functions/misc/admin_functions/remove_has_species.mcfunction"
-    text_to_add = "tag @s remove " + species + "_has_been" + "\n\n"
+    text_to_add = "tag @s remove " + species + "_has_been" + "\n"
 
     # Read the contents of the file
     with open(file_path, "r") as file:
@@ -159,7 +159,7 @@ def species_remove_nuzlock(species):
 
 def give_species_effects(species):
     file_path = "./data/dod/functions/misc/for_every_species/give_species_effects.mcfunction"
-    text_to_add = "execute as @a[tag={0}] " + """unless entity @e[distance=0..30,nbt={Item:{id:\"minecraft:netherite_block\",Count:1b}}]""" + "run function dod:species/{0}/{0}_effects".format(species) + "\n\n"
+    text_to_add = "execute as @a[tag={0}] ".format(species) + """unless entity @e[distance=0..30,nbt={Item:{id:\"minecraft:netherite_block\",Count:1b}}] """ + "run function dod:species/{0}/{0}_effects".format(species) + "\n\n"
 
     # Read the contents of the file
     with open(file_path, "r") as file:
@@ -613,7 +613,7 @@ def speciestell(species):
 
 def bookgivebasic(species,number):
     file_path = "./data/dod/functions/misc/book/bookgivebasic.mcfunction"
-    text_to_add = ",{" + """\"text":\"""" + "\\" + "\\" + """n""" + "\\" + "\\" + """n{0}","color":"red","bold":true,"underlined":true,"hoverEvent":""".format(species,number) + "{" + """\"action":"show_text","value":[""" + "{" + """\"text":"-A""" + "\\" + "\\" + """n-B""" + "\\" + "\\" + """n-C\"""" + "}" + """]""" + "}" + ""","clickEvent":""" + "{" + """\"action":"run_command","value":"/trigger dod_species_trigger set {0}\"""".format(number) + "}}" + """""".format(species,number)
+    text_to_add = ",{" + """\"text":\"""" + "\\" + "\\" + """n""" + "\\" + "\\" + """n{0}","color":"red","bold":true,"underlined":true,"hoverEvent":""".format(proper_name(species),number) + "{" + """\"action":"show_text","value":[""" + "{" + """\"text":"-A""" + "\\" + "\\" + """n-B""" + "\\" + "\\" + """n-C\"""" + "}" + """]""" + "}" + ""","clickEvent":""" + "{" + """\"action":"run_command","value":"/trigger dod_species_trigger set {0}\"""".format(number) + "}}" + """""".format(species,number)
     text_to_remove = """]]']} 1"""
     text_to_also_add = """]']} 1"""
 
@@ -745,22 +745,22 @@ species_number = input("Species numer: ")
 # i typed numer instead of number by mistake and i thought it was funny, i wanted to keep the typo but x didnt, so we had a silent war for about 40 min before we finally settled on this (he didnt even accept my complimentary #b compremise)
 
 bookgivebasic(species_name,species_number)
-species_remove(species_name,species_number)
-remove_has_species(species_name,species_number)
-remove_species_tags(species_name,species_number)
-simple_species_remove(species_name,species_number)
-species_remove_nuzlock(species_name,species_number)
-give_species_effects(species_name,species_number)
-species_blacklist_check1(species_name,species_number)
-species_blacklist_check2(species_name,species_number)
-species_blacklist_check3(species_name,species_number)
-species_run(species_name,species_number)
+species_remove(species_name)
+remove_has_species(species_name)
+remove_species_tags(species_name)
+simple_species_remove(species_name)
+species_remove_nuzlock(species_name)
+give_species_effects(species_name)
+species_blacklist_check1(species_name)
+species_blacklist_check2(species_name)
+species_blacklist_check3(species_name)
+species_run(species_name)
 rnd(species_name,species_number)
 files(species_name,species_number)
 trigger1(species_name,species_number)
 trigger2(species_name,species_number)
 trigger3(species_name,species_number)
-speciestell(species_name,species_number)
+speciestell(species_name)
 
 
 

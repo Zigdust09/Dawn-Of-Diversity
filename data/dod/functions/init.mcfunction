@@ -16,6 +16,7 @@ scoreboard objectives add dod_species_y dummy
 scoreboard objectives add dod_egg_shifter_time dummy
 scoreboard objectives add dod_skyborn_sneak dummy
 scoreboard objectives add dod_puffer_air dummy
+scoreboard objectives add dod_octo_still dummy
 scoreboard objectives add dod_hp dummy
 scoreboard objectives add dod_nuzlock_1_is_on dummy
 scoreboard objectives add dod_egg_shifter_gamemode dummy

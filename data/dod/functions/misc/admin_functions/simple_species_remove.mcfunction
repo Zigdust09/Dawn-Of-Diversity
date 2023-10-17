@@ -8,6 +8,8 @@ tag @s remove night_walker
 
 tag @s remove egg_shifter
 
+tag @s remove octo
+
 #insertbefore
 
 ### species marker

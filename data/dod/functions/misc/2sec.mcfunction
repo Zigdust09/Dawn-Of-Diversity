@@ -10,6 +10,7 @@ execute if score World dod_random_species_1_is_on matches 0 run function dod:mis
 execute if score World dod_random_species_1_is_on matches 1 run function dod:misc/book/instruction_bookgive
 
 
+execute as @e[tag=octo_mark] at @s unless entity @a[tag=octo,distance=..10] run kill @s
 
 
 
