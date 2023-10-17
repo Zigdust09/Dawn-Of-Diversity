@@ -745,6 +745,23 @@ species_number = input("Species numer: ")
 # i typed numer instead of number by mistake and i thought it was funny, i wanted to keep the typo but x didnt, so we had a silent war for about 40 min before we finally settled on this (he didnt even accept my complimentary #b compremise)
 
 bookgivebasic(species_name,species_number)
+species_remove(species_name,species_number)
+remove_has_species(species_name,species_number)
+remove_species_tags(species_name,species_number)
+simple_species_remove(species_name,species_number)
+species_remove_nuzlock(species_name,species_number)
+give_species_effects(species_name,species_number)
+species_blacklist_check1(species_name,species_number)
+species_blacklist_check2(species_name,species_number)
+species_blacklist_check3(species_name,species_number)
+species_run(species_name,species_number)
+rnd(species_name,species_number)
+files(species_name,species_number)
+trigger1(species_name,species_number)
+trigger2(species_name,species_number)
+trigger3(species_name,species_number)
+speciestell(species_name,species_number)
+
 
 
 # If you are reading this you are probably smarter than us -xWires
