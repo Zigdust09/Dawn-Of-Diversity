@@ -58,6 +58,15 @@ execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_s
 execute if score @s dod_random_store matches 5 as @s[tag=!egg_shifter,tag=!egg_shifter_has_been] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_rnd
 
 
+## if you have it already, go again
+execute if score @s dod_random_store matches 6 as @s[tag=octo_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 6 as @s[tag=octo,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 6 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=octo_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 6 as @s[tag=!octo,tag=!octo_has_been] at @s unless entity @e[tag=species_blacklist,tag=octo_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Octo"}]
+execute if score @s dod_random_store matches 6 as @s[tag=!octo,tag=!octo_has_been] unless entity @e[tag=species_blacklist,tag=octo_blacklist] run function dod:species/octo/octo_rnd
+
+
+
 #insertbefore
 
 function dod:misc/dev_functions/stop
