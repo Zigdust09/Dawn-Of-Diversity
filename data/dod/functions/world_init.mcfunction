@@ -6,3 +6,6 @@ scoreboard players set World dod_random_species_1_is_on 0
 scoreboard players set World dod_permadeath_1_is_on 0
 scoreboard players set World dod_nuzlock_1_is_on 0
 
+scoreboard players set World dod_moon_constant_8 8
+scoreboard players set World dod_moon_constant_1 1
+
