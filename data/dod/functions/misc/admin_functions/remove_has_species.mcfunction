@@ -4,6 +4,7 @@ tag @a remove puffer_has_been
 tag @a remove night_walker_has_been
 tag @a remove egg_shifter_has_been
 tag @s remove octo_has_been
+tag @s remove werewolf_has_been
 #insertbefore
 
 ### Species marker 

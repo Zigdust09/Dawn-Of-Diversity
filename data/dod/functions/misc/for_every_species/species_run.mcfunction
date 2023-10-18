@@ -12,5 +12,7 @@ execute as @s[tag=egg_shifter] at @s run function dod:species/egg_shifter/egg_sh
 
 execute as @s[tag=octo] at @s run function dod:species/octo/octo
 
+execute as @s[tag=werewolf] at @s run function dod:species/werewolf/werewolf
+
 #insertbefore
 ### Species marker 

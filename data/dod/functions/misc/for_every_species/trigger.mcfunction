@@ -11,6 +11,7 @@ execute as @a[scores={dod_species_trigger=3}] unless entity @e[tag=species_black
 execute as @a[scores={dod_species_trigger=4}] unless entity @e[tag=species_blacklist,tag=night_walker_blacklist] run function dod:species/night_walker/night_walker_confirm
 execute as @a[scores={dod_species_trigger=5}] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_confirm
 execute as @a[scores={dod_species_trigger=6}] unless entity @e[tag=species_blacklist,tag=octo_blacklist] run function dod:species/octo/octo_confirm
+execute as @a[scores={dod_species_trigger=7}] unless entity @e[tag=species_blacklist,tag=werewolf_blacklist] run function dod:species/werewolf/werewolf_confirm
 #insertbefore1
 ### Species marker 
 
@@ -22,6 +23,7 @@ execute as @a[scores={dod_species_trigger=3}] if entity @e[tag=species_blacklist
 execute as @a[scores={dod_species_trigger=4}] if entity @e[tag=species_blacklist,tag=night_walker_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=5}] if entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=6}] if entity @e[tag=species_blacklist,tag=octo_blacklist] run function dod:misc/species_trigger_blacklist
+execute as @a[scores={dod_species_trigger=7}] if entity @e[tag=species_blacklist,tag=werewolf_blacklist] run function dod:misc/species_trigger_blacklist
 #insertbefore2
 ### Species marker 
 
@@ -34,6 +36,7 @@ execute as @a[scores={dod_species_trigger_confirm=3}] run tag @s add puffer
 execute as @a[scores={dod_species_trigger_confirm=4}] run tag @s add night_walker
 execute as @a[scores={dod_species_trigger_confirm=5}] run tag @s add egg_shifter
 execute as @a[scores={dod_species_trigger_confirm=6}] run tag @s add octo
+execute as @a[scores={dod_species_trigger_confirm=7}] run tag @s add werewolf
 #insertbefore3
 ### Species marker 
 

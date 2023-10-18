@@ -1,0 +1,1 @@
+execute as @s[tag=!equip] run function dod:species/werewolf/werewolf_item_handle
