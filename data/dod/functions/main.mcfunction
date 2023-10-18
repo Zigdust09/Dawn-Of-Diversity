@@ -12,6 +12,8 @@ execute as @a store result score @s dod_fall_distace run data get entity @s Fall
 execute as @a store result score @s dod_hp run data get entity @s Health 1
 
 
+
+
 function dod:misc/food_score_reset
 
 ##stored y value

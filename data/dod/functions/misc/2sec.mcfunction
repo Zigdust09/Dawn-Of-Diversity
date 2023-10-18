@@ -2,7 +2,7 @@
 
 execute unless score World dod_world_init matches 1 run function dod:world_init
 
-
+execute if predicate dod:turning_night run function dod:species/werewolf/day_calculate
 
 
 ##gives the book to new players
