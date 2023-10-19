@@ -12,6 +12,8 @@ tag @s remove octo
 
 tag @s remove werewolf
 
+tag @s remove icelander
+
 #insertbefore
 
 tag @s remove has_species

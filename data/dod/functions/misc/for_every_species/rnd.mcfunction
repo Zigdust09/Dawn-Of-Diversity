@@ -76,6 +76,15 @@ execute if score @s dod_random_store matches 7 as @s[tag=!werewolf,tag=!werewolf
 
 
 
+## if you have it already, go again
+execute if score @s dod_random_store matches 8 as @s[tag=icelander_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 8 as @s[tag=icelander,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 8 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=icelander_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 8 as @s[tag=!icelander,tag=!icelander_has_been] at @s unless entity @e[tag=species_blacklist,tag=icelander_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Icelander"}]
+execute if score @s dod_random_store matches 8 as @s[tag=!icelander,tag=!icelander_has_been] unless entity @e[tag=species_blacklist,tag=icelander_blacklist] run function dod:species/icelander/icelander_rnd
+
+
+
 #insertbefore
 
 function dod:misc/dev_functions/stop

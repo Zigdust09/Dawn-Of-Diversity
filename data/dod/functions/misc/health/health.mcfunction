@@ -7,6 +7,7 @@ attribute @s[tag=egg_shifter] generic.max_health modifier add 45c0c897-a8f5-4711
 
 attribute @s[tag=octo] generic.max_health modifier add 45c0c897-a8f5-4711-a73e-99c9dea59cf6 "octo" 4 add
 
+attribute @s[tag=icelander] generic.max_health modifier add c1ff0cd7-71fd-4672-b11e-1e6865c50db6 "icelander" 2 add
 
 
 ##resets everything

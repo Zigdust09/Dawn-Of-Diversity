@@ -14,5 +14,7 @@ execute as @s[tag=octo] at @s run function dod:species/octo/octo
 
 execute as @s[tag=werewolf] at @s run function dod:species/werewolf/werewolf
 
+execute as @s[tag=icelander] at @s run function dod:species/icelander/icelander
+
 #insertbefore
 ### Species marker 

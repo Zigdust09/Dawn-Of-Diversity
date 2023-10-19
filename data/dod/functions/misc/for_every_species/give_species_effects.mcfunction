@@ -14,6 +14,8 @@ execute as @a[tag=octo] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft
 
 execute as @a[tag=werewolf] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/werewolf/werewolf_effects
 
+execute as @a[tag=icelander] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/icelander/icelander_effects
+
 #insertbefore
 ### Species marker
 
