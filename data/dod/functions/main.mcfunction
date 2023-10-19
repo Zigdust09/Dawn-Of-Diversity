@@ -18,6 +18,8 @@ function dod:misc/food_score_reset
 
 ##stored y value
 execute as @a store result score @s dod_species_y run data get entity @s Pos[1]
+execute as @a store result score @s dod_fire_time run data get entity @s Fire
+
 
 ##addes equip tag
 tag @a[tag=!equip] add equip
@@ -34,3 +36,5 @@ scoreboard players remove @a dod_egg_shifter_gamemode 1
 gamemode survival @a[scores={dod_egg_shifter_gamemode=1},tag=egg_shifter_smoke]
 tag @a[scores={dod_egg_shifter_gamemode=1},tag=egg_shifter_smoke] remove egg_shifter_smoke
 execute as @e[type=egg,nbt={Item:{tag:{egg_shifter_rotten_egg:1b}}}] at @s run function dod:species/egg_shifter/egg_run
+
+execute as @a[scores={dod_warped_right_click=1..}] run scoreboard players set @s dod_warped_right_click 0

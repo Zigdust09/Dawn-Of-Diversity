@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Ice Ray","color":"blue","italic":false}',Lore:['{"text":"Casts an ice ray"}']},Unbreakable:1b,CustomModelData:2008001002,icelanders_wand:1b} 1
