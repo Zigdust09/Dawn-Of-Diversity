@@ -1,0 +1,2 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Fireball","color":"red","italic":false}',Lore:['{"text":"Forms a fireball"}']},Unbreakable:1b,CustomModelData:2008001002,fireborns_wand:1b} 1
+give @s iron_boots{display:{Name:'{"text":"Fireborns Boots","color":"red","italic":false}'},Unbreakable:1b,fireborns_boots:1b,Enchantments:[{id:"minecraft:blast_protection",lvl:10s}]} 1

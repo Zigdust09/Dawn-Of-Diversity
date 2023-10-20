@@ -9,6 +9,9 @@ attribute @s[tag=octo] generic.max_health modifier add 45c0c897-a8f5-4711-a73e-9
 
 attribute @s[tag=icelander] generic.max_health modifier add c1ff0cd7-71fd-4672-b11e-1e6865c50db6 "icelander" 2 add
 
+attribute @s[tag=fireborn] generic.max_health modifier add 587d2ac9-7c5a-4070-bf54-c2c5e2bf0345 "fireborn" -2 add
+attribute @s[tag=fireborn] generic.attack_damage modifier add 0d3e7042-5388-4c6f-910b-8f23974ce81a "fireborn_dmg" 4 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0

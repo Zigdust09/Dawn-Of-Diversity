@@ -14,6 +14,8 @@ tag @s remove werewolf
 
 tag @s remove icelander
 
+tag @s remove fireborn
+
 #insertbefore
 
 tag @s remove has_species

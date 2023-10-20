@@ -14,6 +14,8 @@ tag @s remove werewolf
 tag @s remove werewolf_has_been
 tag @s remove icelander
 tag @s remove icelander_has_been
+tag @s remove fireborn
+tag @s remove fireborn_has_been
 #insertbefore
 tag @a remove dod_rnd_has_all_species
 
