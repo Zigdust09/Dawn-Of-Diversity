@@ -4,6 +4,7 @@ execute align zxy positioned ^ ^ ^-1 run summon marker ~0.5 ~0.5 ~0.5 {Tags:[ice
 scoreboard players set @e[limit=1,sort=nearest,tag=iceray_block] dod_iceblock_timer 8
 fill ^ ^ ^-1 ^ ^ ^-1 packed_ice replace air
 effect give @e[distance=..5,tag=!icelander] slowness 10 2
+execute as @e[distance=..5,tag=!icelander] run damage @s 4 freeze
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 ice replace #dod:water
 
 

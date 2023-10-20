@@ -6,7 +6,7 @@
             "offsetY": 1,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -18,7 +18,7 @@
             "offsetY": 2,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -30,7 +30,7 @@
             "offsetY": 3,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -42,7 +42,7 @@
             "offsetY": 4,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -54,7 +54,7 @@
             "offsetY": 5,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -66,7 +66,7 @@
             "offsetY": 6,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -78,7 +78,7 @@
             "offsetY": 7,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -90,7 +90,7 @@
             "offsetY": 8,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -102,7 +102,7 @@
             "offsetY": 9,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -114,7 +114,7 @@
             "offsetY": 10,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -126,7 +126,7 @@
             "offsetY": 11,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -138,7 +138,7 @@
             "offsetY": 12,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -150,7 +150,7 @@
             "offsetY": 13,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -162,7 +162,7 @@
             "offsetY": 14,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -174,7 +174,7 @@
             "offsetY": 15,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -186,7 +186,7 @@
             "offsetY": 16,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -198,7 +198,7 @@
             "offsetY": 17,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -210,7 +210,7 @@
             "offsetY": 18,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -222,7 +222,7 @@
             "offsetY": 19,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -234,7 +234,7 @@
             "offsetY": 20,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -246,7 +246,7 @@
             "offsetY": 21,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -258,7 +258,7 @@
             "offsetY": 22,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -270,7 +270,7 @@
             "offsetY": 23,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -282,7 +282,7 @@
             "offsetY": 24,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -294,7 +294,7 @@
             "offsetY": 25,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -306,7 +306,7 @@
             "offsetY": 26,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -318,7 +318,7 @@
             "offsetY": 27,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -330,7 +330,7 @@
             "offsetY": 28,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -342,7 +342,7 @@
             "offsetY": 29,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -354,7 +354,7 @@
             "offsetY": 30,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -366,7 +366,7 @@
             "offsetY": 31,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -378,7 +378,7 @@
             "offsetY": 32,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -390,7 +390,7 @@
             "offsetY": 33,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -402,7 +402,7 @@
             "offsetY": 34,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -414,7 +414,7 @@
             "offsetY": 35,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -426,7 +426,7 @@
             "offsetY": 36,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -438,7 +438,7 @@
             "offsetY": 37,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -450,7 +450,7 @@
             "offsetY": 38,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -462,7 +462,7 @@
             "offsetY": 39,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -474,7 +474,7 @@
             "offsetY": 40,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -486,7 +486,7 @@
             "offsetY": 41,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -498,7 +498,7 @@
             "offsetY": 42,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -510,7 +510,7 @@
             "offsetY": 43,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -522,7 +522,7 @@
             "offsetY": 44,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -534,7 +534,7 @@
             "offsetY": 45,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -546,7 +546,7 @@
             "offsetY": 46,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -558,7 +558,7 @@
             "offsetY": 47,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -570,7 +570,7 @@
             "offsetY": 48,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -582,7 +582,7 @@
             "offsetY": 49,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -594,7 +594,7 @@
             "offsetY": 50,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -606,7 +606,7 @@
             "offsetY": 51,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -618,7 +618,7 @@
             "offsetY": 52,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -630,7 +630,7 @@
             "offsetY": 53,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -642,7 +642,7 @@
             "offsetY": 54,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -654,7 +654,7 @@
             "offsetY": 55,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -666,7 +666,7 @@
             "offsetY": 56,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -678,7 +678,7 @@
             "offsetY": 57,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -690,7 +690,7 @@
             "offsetY": 58,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -702,7 +702,7 @@
             "offsetY": 59,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -714,7 +714,7 @@
             "offsetY": 60,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -726,7 +726,7 @@
             "offsetY": 61,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -738,7 +738,7 @@
             "offsetY": 62,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -750,7 +750,7 @@
             "offsetY": 63,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -762,7 +762,7 @@
             "offsetY": 64,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -774,7 +774,7 @@
             "offsetY": 65,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -786,7 +786,7 @@
             "offsetY": 66,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -798,7 +798,7 @@
             "offsetY": 67,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -810,7 +810,7 @@
             "offsetY": 68,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -822,7 +822,7 @@
             "offsetY": 69,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -834,7 +834,7 @@
             "offsetY": 70,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -846,7 +846,7 @@
             "offsetY": 71,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -858,7 +858,7 @@
             "offsetY": 72,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -870,7 +870,7 @@
             "offsetY": 73,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -882,7 +882,7 @@
             "offsetY": 74,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -894,7 +894,7 @@
             "offsetY": 75,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -906,7 +906,7 @@
             "offsetY": 76,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -918,7 +918,7 @@
             "offsetY": 77,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -930,7 +930,7 @@
             "offsetY": 78,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -942,7 +942,7 @@
             "offsetY": 79,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -954,7 +954,7 @@
             "offsetY": 80,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -966,7 +966,7 @@
             "offsetY": 81,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -978,7 +978,7 @@
             "offsetY": 82,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -990,7 +990,7 @@
             "offsetY": 83,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1002,7 +1002,7 @@
             "offsetY": 84,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1014,7 +1014,7 @@
             "offsetY": 85,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1026,7 +1026,7 @@
             "offsetY": 86,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1038,7 +1038,7 @@
             "offsetY": 87,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1050,7 +1050,7 @@
             "offsetY": 88,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1062,7 +1062,7 @@
             "offsetY": 89,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1074,7 +1074,7 @@
             "offsetY": 90,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1086,7 +1086,7 @@
             "offsetY": 91,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1098,7 +1098,7 @@
             "offsetY": 92,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1110,7 +1110,7 @@
             "offsetY": 93,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1122,7 +1122,7 @@
             "offsetY": 94,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1134,7 +1134,7 @@
             "offsetY": 95,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1146,7 +1146,7 @@
             "offsetY": 96,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1158,7 +1158,7 @@
             "offsetY": 97,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1170,7 +1170,7 @@
             "offsetY": 98,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1182,7 +1182,7 @@
             "offsetY": 99,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1194,7 +1194,7 @@
             "offsetY": 100,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1206,7 +1206,7 @@
             "offsetY": 101,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1218,7 +1218,7 @@
             "offsetY": 102,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1230,7 +1230,7 @@
             "offsetY": 103,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1242,7 +1242,7 @@
             "offsetY": 104,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1254,7 +1254,7 @@
             "offsetY": 105,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1266,7 +1266,7 @@
             "offsetY": 106,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1278,7 +1278,7 @@
             "offsetY": 107,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1290,7 +1290,7 @@
             "offsetY": 108,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1302,7 +1302,7 @@
             "offsetY": 109,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1314,7 +1314,7 @@
             "offsetY": 110,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1326,7 +1326,7 @@
             "offsetY": 111,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1338,7 +1338,7 @@
             "offsetY": 112,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1350,7 +1350,7 @@
             "offsetY": 113,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1362,7 +1362,7 @@
             "offsetY": 114,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1374,7 +1374,7 @@
             "offsetY": 115,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1386,7 +1386,7 @@
             "offsetY": 116,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1398,7 +1398,7 @@
             "offsetY": 117,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1410,7 +1410,7 @@
             "offsetY": 118,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1422,7 +1422,7 @@
             "offsetY": 119,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1434,7 +1434,7 @@
             "offsetY": 120,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1446,7 +1446,7 @@
             "offsetY": 121,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1458,7 +1458,7 @@
             "offsetY": 122,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1470,7 +1470,7 @@
             "offsetY": 123,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1482,7 +1482,7 @@
             "offsetY": 124,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1494,7 +1494,7 @@
             "offsetY": 125,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1506,7 +1506,7 @@
             "offsetY": 126,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1518,7 +1518,7 @@
             "offsetY": 127,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1530,7 +1530,7 @@
             "offsetY": 128,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1542,7 +1542,7 @@
             "offsetY": 129,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1554,7 +1554,7 @@
             "offsetY": 130,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1566,7 +1566,7 @@
             "offsetY": 131,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1578,7 +1578,7 @@
             "offsetY": 132,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1590,7 +1590,7 @@
             "offsetY": 133,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1602,7 +1602,7 @@
             "offsetY": 134,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1614,7 +1614,7 @@
             "offsetY": 135,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1626,7 +1626,7 @@
             "offsetY": 136,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1638,7 +1638,7 @@
             "offsetY": 137,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1650,7 +1650,7 @@
             "offsetY": 138,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1662,7 +1662,7 @@
             "offsetY": 139,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1674,7 +1674,7 @@
             "offsetY": 140,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1686,7 +1686,7 @@
             "offsetY": 141,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1698,7 +1698,7 @@
             "offsetY": 142,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1710,7 +1710,7 @@
             "offsetY": 143,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1722,7 +1722,7 @@
             "offsetY": 144,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1734,7 +1734,7 @@
             "offsetY": 145,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1746,7 +1746,7 @@
             "offsetY": 146,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1758,7 +1758,7 @@
             "offsetY": 147,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1770,7 +1770,7 @@
             "offsetY": 148,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1782,7 +1782,7 @@
             "offsetY": 149,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1794,7 +1794,7 @@
             "offsetY": 150,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1806,7 +1806,7 @@
             "offsetY": 151,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1818,7 +1818,7 @@
             "offsetY": 152,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1830,7 +1830,7 @@
             "offsetY": 153,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1842,7 +1842,7 @@
             "offsetY": 154,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1854,7 +1854,7 @@
             "offsetY": 155,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1866,7 +1866,7 @@
             "offsetY": 156,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1878,7 +1878,7 @@
             "offsetY": 157,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1890,7 +1890,7 @@
             "offsetY": 158,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1902,7 +1902,7 @@
             "offsetY": 159,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1914,7 +1914,7 @@
             "offsetY": 160,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1926,7 +1926,7 @@
             "offsetY": 161,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1938,7 +1938,7 @@
             "offsetY": 162,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1950,7 +1950,7 @@
             "offsetY": 163,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1962,7 +1962,7 @@
             "offsetY": 164,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1974,7 +1974,7 @@
             "offsetY": 165,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1986,7 +1986,7 @@
             "offsetY": 166,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -1998,7 +1998,7 @@
             "offsetY": 167,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2010,7 +2010,7 @@
             "offsetY": 168,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2022,7 +2022,7 @@
             "offsetY": 169,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2034,7 +2034,7 @@
             "offsetY": 170,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2046,7 +2046,7 @@
             "offsetY": 171,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2058,7 +2058,7 @@
             "offsetY": 172,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2070,7 +2070,7 @@
             "offsetY": 173,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2082,7 +2082,7 @@
             "offsetY": 174,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2094,7 +2094,7 @@
             "offsetY": 175,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2106,7 +2106,7 @@
             "offsetY": 176,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2118,7 +2118,7 @@
             "offsetY": 177,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2130,7 +2130,7 @@
             "offsetY": 178,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2142,7 +2142,7 @@
             "offsetY": 179,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2154,7 +2154,7 @@
             "offsetY": 180,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2166,7 +2166,7 @@
             "offsetY": 181,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2178,7 +2178,7 @@
             "offsetY": 182,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2190,7 +2190,7 @@
             "offsetY": 183,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2202,7 +2202,7 @@
             "offsetY": 184,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2214,7 +2214,7 @@
             "offsetY": 185,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2226,7 +2226,7 @@
             "offsetY": 186,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2238,7 +2238,7 @@
             "offsetY": 187,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2250,7 +2250,7 @@
             "offsetY": 188,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2262,7 +2262,7 @@
             "offsetY": 189,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2274,7 +2274,7 @@
             "offsetY": 190,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2286,7 +2286,7 @@
             "offsetY": 191,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2298,7 +2298,7 @@
             "offsetY": 192,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2310,7 +2310,7 @@
             "offsetY": 193,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2322,7 +2322,7 @@
             "offsetY": 194,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2334,7 +2334,7 @@
             "offsetY": 195,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2346,7 +2346,7 @@
             "offsetY": 196,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2358,7 +2358,7 @@
             "offsetY": 197,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2370,7 +2370,7 @@
             "offsetY": 198,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2382,7 +2382,7 @@
             "offsetY": 199,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2394,7 +2394,7 @@
             "offsetY": 200,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2406,7 +2406,7 @@
             "offsetY": 201,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2418,7 +2418,7 @@
             "offsetY": 202,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2430,7 +2430,7 @@
             "offsetY": 203,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2442,7 +2442,7 @@
             "offsetY": 204,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2454,7 +2454,7 @@
             "offsetY": 205,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2466,7 +2466,7 @@
             "offsetY": 206,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2478,7 +2478,7 @@
             "offsetY": 207,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2490,7 +2490,7 @@
             "offsetY": 208,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2502,7 +2502,7 @@
             "offsetY": 209,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2514,7 +2514,7 @@
             "offsetY": 210,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2526,7 +2526,7 @@
             "offsetY": 211,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2538,7 +2538,7 @@
             "offsetY": 212,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2550,7 +2550,7 @@
             "offsetY": 213,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2562,7 +2562,7 @@
             "offsetY": 214,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2574,7 +2574,7 @@
             "offsetY": 215,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2586,7 +2586,7 @@
             "offsetY": 216,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2598,7 +2598,7 @@
             "offsetY": 217,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2610,7 +2610,7 @@
             "offsetY": 218,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2622,7 +2622,7 @@
             "offsetY": 219,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2634,7 +2634,7 @@
             "offsetY": 220,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2646,7 +2646,7 @@
             "offsetY": 221,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2658,7 +2658,7 @@
             "offsetY": 222,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2670,7 +2670,7 @@
             "offsetY": 223,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2682,7 +2682,7 @@
             "offsetY": 224,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2694,7 +2694,7 @@
             "offsetY": 225,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2706,7 +2706,7 @@
             "offsetY": 226,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2718,7 +2718,7 @@
             "offsetY": 227,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2730,7 +2730,7 @@
             "offsetY": 228,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2742,7 +2742,7 @@
             "offsetY": 229,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2754,7 +2754,7 @@
             "offsetY": 230,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2766,7 +2766,7 @@
             "offsetY": 231,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2778,7 +2778,7 @@
             "offsetY": 232,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2790,7 +2790,7 @@
             "offsetY": 233,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2802,7 +2802,7 @@
             "offsetY": 234,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2814,7 +2814,7 @@
             "offsetY": 235,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2826,7 +2826,7 @@
             "offsetY": 236,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2838,7 +2838,7 @@
             "offsetY": 237,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2850,7 +2850,7 @@
             "offsetY": 238,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2862,7 +2862,7 @@
             "offsetY": 239,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2874,7 +2874,7 @@
             "offsetY": 240,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2886,7 +2886,7 @@
             "offsetY": 241,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2898,7 +2898,7 @@
             "offsetY": 242,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2910,7 +2910,7 @@
             "offsetY": 243,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2922,7 +2922,7 @@
             "offsetY": 244,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2934,7 +2934,7 @@
             "offsetY": 245,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2946,7 +2946,7 @@
             "offsetY": 246,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2958,7 +2958,7 @@
             "offsetY": 247,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2970,7 +2970,7 @@
             "offsetY": 248,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2982,7 +2982,7 @@
             "offsetY": 249,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -2994,7 +2994,7 @@
             "offsetY": 250,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3006,7 +3006,7 @@
             "offsetY": 251,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3018,7 +3018,7 @@
             "offsetY": 252,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3030,7 +3030,7 @@
             "offsetY": 253,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3042,7 +3042,7 @@
             "offsetY": 254,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3054,7 +3054,7 @@
             "offsetY": 255,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3066,7 +3066,7 @@
             "offsetY": 256,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3078,7 +3078,7 @@
             "offsetY": 257,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3090,7 +3090,7 @@
             "offsetY": 258,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3102,7 +3102,7 @@
             "offsetY": 259,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3114,7 +3114,7 @@
             "offsetY": 260,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3126,7 +3126,7 @@
             "offsetY": 261,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3138,7 +3138,7 @@
             "offsetY": 262,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3150,7 +3150,7 @@
             "offsetY": 263,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3162,7 +3162,7 @@
             "offsetY": 264,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3174,7 +3174,7 @@
             "offsetY": 265,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3186,7 +3186,7 @@
             "offsetY": 266,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3198,7 +3198,7 @@
             "offsetY": 267,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3210,7 +3210,7 @@
             "offsetY": 268,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3222,7 +3222,7 @@
             "offsetY": 269,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3234,7 +3234,7 @@
             "offsetY": 270,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3246,7 +3246,7 @@
             "offsetY": 271,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3258,7 +3258,7 @@
             "offsetY": 272,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3270,7 +3270,7 @@
             "offsetY": 273,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3282,7 +3282,7 @@
             "offsetY": 274,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3294,7 +3294,7 @@
             "offsetY": 275,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3306,7 +3306,7 @@
             "offsetY": 276,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3318,7 +3318,7 @@
             "offsetY": 277,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3330,7 +3330,7 @@
             "offsetY": 278,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3342,7 +3342,7 @@
             "offsetY": 279,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3354,7 +3354,7 @@
             "offsetY": 280,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3366,7 +3366,7 @@
             "offsetY": 281,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3378,7 +3378,7 @@
             "offsetY": 282,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3390,7 +3390,7 @@
             "offsetY": 283,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3402,7 +3402,7 @@
             "offsetY": 284,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3414,7 +3414,7 @@
             "offsetY": 285,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3426,7 +3426,7 @@
             "offsetY": 286,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3438,7 +3438,7 @@
             "offsetY": 287,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3450,7 +3450,7 @@
             "offsetY": 288,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3462,7 +3462,7 @@
             "offsetY": 289,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3474,7 +3474,7 @@
             "offsetY": 290,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3486,7 +3486,7 @@
             "offsetY": 291,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3498,7 +3498,7 @@
             "offsetY": 292,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3510,7 +3510,7 @@
             "offsetY": 293,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3522,7 +3522,7 @@
             "offsetY": 294,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3534,7 +3534,7 @@
             "offsetY": 295,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3546,7 +3546,7 @@
             "offsetY": 296,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3558,7 +3558,7 @@
             "offsetY": 297,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3570,7 +3570,7 @@
             "offsetY": 298,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3582,7 +3582,7 @@
             "offsetY": 299,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3594,7 +3594,7 @@
             "offsetY": 300,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3606,7 +3606,7 @@
             "offsetY": 301,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3618,7 +3618,7 @@
             "offsetY": 302,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3630,7 +3630,7 @@
             "offsetY": 303,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3642,7 +3642,7 @@
             "offsetY": 304,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3654,7 +3654,7 @@
             "offsetY": 305,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3666,7 +3666,7 @@
             "offsetY": 306,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3678,7 +3678,7 @@
             "offsetY": 307,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3690,7 +3690,7 @@
             "offsetY": 308,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3702,7 +3702,7 @@
             "offsetY": 309,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3714,7 +3714,7 @@
             "offsetY": 310,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3726,7 +3726,7 @@
             "offsetY": 311,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3738,7 +3738,7 @@
             "offsetY": 312,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3750,7 +3750,7 @@
             "offsetY": 313,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3762,7 +3762,7 @@
             "offsetY": 314,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3774,7 +3774,7 @@
             "offsetY": 315,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3786,7 +3786,7 @@
             "offsetY": 316,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3798,7 +3798,7 @@
             "offsetY": 317,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3810,7 +3810,7 @@
             "offsetY": 318,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3822,7 +3822,7 @@
             "offsetY": 319,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3834,7 +3834,7 @@
             "offsetY": 320,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3846,7 +3846,7 @@
             "offsetY": 321,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3858,7 +3858,7 @@
             "offsetY": 322,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3870,7 +3870,7 @@
             "offsetY": 323,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3882,7 +3882,7 @@
             "offsetY": 324,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3894,7 +3894,7 @@
             "offsetY": 325,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3906,7 +3906,7 @@
             "offsetY": 326,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3918,7 +3918,7 @@
             "offsetY": 327,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3930,7 +3930,7 @@
             "offsetY": 328,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3942,7 +3942,7 @@
             "offsetY": 329,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3954,7 +3954,7 @@
             "offsetY": 330,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3966,7 +3966,7 @@
             "offsetY": 331,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3978,7 +3978,7 @@
             "offsetY": 332,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -3990,7 +3990,7 @@
             "offsetY": 333,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4002,7 +4002,7 @@
             "offsetY": 334,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4014,7 +4014,7 @@
             "offsetY": 335,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4026,7 +4026,7 @@
             "offsetY": 336,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4038,7 +4038,7 @@
             "offsetY": 337,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4050,7 +4050,7 @@
             "offsetY": 338,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4062,7 +4062,7 @@
             "offsetY": 339,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4074,7 +4074,7 @@
             "offsetY": 340,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4086,7 +4086,7 @@
             "offsetY": 341,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4098,7 +4098,7 @@
             "offsetY": 342,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4110,7 +4110,7 @@
             "offsetY": 343,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4122,7 +4122,7 @@
             "offsetY": 344,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4134,7 +4134,7 @@
             "offsetY": 345,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4146,7 +4146,7 @@
             "offsetY": 346,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4158,7 +4158,7 @@
             "offsetY": 347,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4170,7 +4170,7 @@
             "offsetY": 348,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4182,7 +4182,7 @@
             "offsetY": 349,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4194,7 +4194,7 @@
             "offsetY": 350,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4206,7 +4206,7 @@
             "offsetY": 351,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4218,7 +4218,7 @@
             "offsetY": 352,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4230,7 +4230,7 @@
             "offsetY": 353,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4242,7 +4242,7 @@
             "offsetY": 354,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4254,7 +4254,7 @@
             "offsetY": 355,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4266,7 +4266,7 @@
             "offsetY": 356,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4278,7 +4278,7 @@
             "offsetY": 357,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4290,7 +4290,7 @@
             "offsetY": 358,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4302,7 +4302,7 @@
             "offsetY": 359,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4314,7 +4314,7 @@
             "offsetY": 360,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4326,7 +4326,7 @@
             "offsetY": 361,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4338,7 +4338,7 @@
             "offsetY": 362,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4350,7 +4350,7 @@
             "offsetY": 363,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4362,7 +4362,7 @@
             "offsetY": 364,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4374,7 +4374,7 @@
             "offsetY": 365,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4386,7 +4386,7 @@
             "offsetY": 366,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4398,7 +4398,7 @@
             "offsetY": 367,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4410,7 +4410,7 @@
             "offsetY": 368,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4422,7 +4422,7 @@
             "offsetY": 369,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4434,7 +4434,7 @@
             "offsetY": 370,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4446,7 +4446,7 @@
             "offsetY": 371,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4458,7 +4458,7 @@
             "offsetY": 372,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4470,7 +4470,7 @@
             "offsetY": 373,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4482,7 +4482,7 @@
             "offsetY": 374,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4494,7 +4494,7 @@
             "offsetY": 375,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4506,7 +4506,7 @@
             "offsetY": 376,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4518,7 +4518,7 @@
             "offsetY": 377,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4530,7 +4530,7 @@
             "offsetY": 378,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4542,7 +4542,7 @@
             "offsetY": 379,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4554,7 +4554,7 @@
             "offsetY": 380,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4566,7 +4566,7 @@
             "offsetY": 381,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4578,7 +4578,7 @@
             "offsetY": 382,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4590,7 +4590,7 @@
             "offsetY": 383,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }
@@ -4602,7 +4602,7 @@
             "offsetY": 384,
             "predicate": {
                 "block": {
-                    "tag": "minecraft:rain_blocking"
+                    "tag": "dod:skycheck"
                 }
             }
         }

@@ -13,6 +13,8 @@ scoreboard objectives add dod_warped_right_click minecraft.used:warped_fungus_on
 scoreboard objectives add dod_health_respawn minecraft.custom:deaths
 scoreboard objectives add dod_health_respawn_walk minecraft.custom:walk_one_cm
 scoreboard objectives add dod_icelander_cooldown dummy
+scoreboard objectives add dod_fireborn_cooldown dummy
+scoreboard objectives add dod_fireborn_fireball_time dummy
 scoreboard objectives add dod_species_y dummy
 scoreboard objectives add dod_fire_time dummy
 scoreboard objectives add dod_egg_shifter_time dummy
