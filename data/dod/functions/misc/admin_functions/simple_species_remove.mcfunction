@@ -16,6 +16,8 @@ tag @s remove icelander
 
 tag @s remove fireborn
 
+tag @s remove red_loki
+
 #insertbefore
 
 ### species marker

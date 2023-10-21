@@ -18,5 +18,7 @@ execute as @s[tag=icelander] at @s run function dod:species/icelander/icelander
 
 execute as @s[tag=fireborn] at @s run function dod:species/fireborn/fireborn
 
+execute as @s[tag=red_loki] at @s run function dod:species/red_loki/red_loki
+
 #insertbefore
 ### Species marker 
