@@ -12,6 +12,7 @@ schedule function dod:species/werewolf/werewolf_1sec 1s replace
 scoreboard objectives add dod_warped_right_click minecraft.used:warped_fungus_on_a_stick
 scoreboard objectives add dod_health_respawn minecraft.custom:deaths
 scoreboard objectives add dod_health_respawn_walk minecraft.custom:walk_one_cm
+scoreboard objectives add dod_red_loki_speed dummy
 scoreboard objectives add dod_icelander_cooldown dummy
 scoreboard objectives add dod_fireborn_cooldown dummy
 scoreboard objectives add dod_fireborn_fireball_time dummy
@@ -20,6 +21,8 @@ scoreboard objectives add dod_fire_time dummy
 scoreboard objectives add dod_egg_shifter_time dummy
 scoreboard objectives add dod_skyborn_sneak dummy
 scoreboard objectives add dod_icelander_ray dummy
+scoreboard objectives add dod_night_walker_amethyst minecraft.dropped:amethyst_block
+scoreboard objectives add dod_red_loki_sugar minecraft.dropped:sugar
 scoreboard objectives add dod_iceblock_timer dummy
 scoreboard objectives add dod_moon_night_math dummy
 scoreboard objectives add dod_puffer_air dummy

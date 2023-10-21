@@ -12,6 +12,9 @@ attribute @s[tag=icelander] generic.max_health modifier add c1ff0cd7-71fd-4672-b
 attribute @s[tag=fireborn] generic.max_health modifier add 587d2ac9-7c5a-4070-bf54-c2c5e2bf0345 "fireborn" -2 add
 attribute @s[tag=fireborn] generic.attack_damage modifier add 0d3e7042-5388-4c6f-910b-8f23974ce81a "fireborn_dmg" 4 add
 
+attribute @s[tag=red_loki] generic.max_health modifier add c09f9528-85da-4019-abfa-2f634152cef7 "red_loki" -4 add
+attribute @s[tag=red_loki] generic.attack_damage modifier add d47f4fd7-47df-43f0-a6e4-ff5aeef81633 "red_loki_dmg" -1 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0

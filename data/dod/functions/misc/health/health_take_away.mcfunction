@@ -9,7 +9,11 @@ attribute @s[tag=egg_shifter] generic.max_health modifier remove 45c0c897-a8f5-4
 
 attribute @s[tag=icelander] generic.max_health modifier remove c1ff0cd7-71fd-4672-b11e-1e6865c50db6
 
+attribute @s[tag=fireborn] generic.max_health modifier remove 587d2ac9-7c5a-4070-bf54-c2c5e2bf0345
+attribute @s[tag=fireborn] generic.attack_damage modifier remove 0d3e7042-5388-4c6f-910b-8f23974ce81a
 
+attribute @s[tag=red_loki] generic.max_health modifier remove c09f9528-85da-4019-abfa-2f634152cef7
+attribute @s[tag=red_loki] generic.attack_damage modifier remove d47f4fd7-47df-43f0-a6e4-ff5aeef81633
 
 
 effect give @s instant_health 1 34 true

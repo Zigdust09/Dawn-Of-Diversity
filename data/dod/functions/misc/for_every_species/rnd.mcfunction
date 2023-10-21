@@ -94,6 +94,15 @@ execute if score @s dod_random_store matches 9 as @s[tag=!fireborn,tag=!fireborn
 
 
 
+## if you have it already, go again
+execute if score @s dod_random_store matches 10 as @s[tag=red_loki_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 10 as @s[tag=red_loki,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 10 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=red_loki_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 10 as @s[tag=!red_loki,tag=!red_loki_has_been] at @s unless entity @e[tag=species_blacklist,tag=red_loki_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Red Loki"}]
+execute if score @s dod_random_store matches 10 as @s[tag=!red_loki,tag=!red_loki_has_been] unless entity @e[tag=species_blacklist,tag=red_loki_blacklist] run function dod:species/red_loki/red_loki_rnd
+
+
+
 #insertbefore
 
 function dod:misc/dev_functions/stop
