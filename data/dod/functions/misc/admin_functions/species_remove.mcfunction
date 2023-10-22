@@ -18,6 +18,8 @@ tag @s remove fireborn
 
 tag @s remove red_loki
 
+tag @s remove floraling
+
 tag @s remove has_species
 
 tag @s remove dod_book_given

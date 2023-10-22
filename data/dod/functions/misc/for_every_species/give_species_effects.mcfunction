@@ -20,6 +20,8 @@ execute as @a[tag=fireborn] unless entity @e[distance=0..30,nbt={Item:{id:"minec
 
 execute as @a[tag=red_loki] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/red_loki/red_loki_effects
 
+execute as @a[tag=floraling] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/floraling/floraling_effects
+
 #insertbefore
 ### Species marker
 
