@@ -15,6 +15,8 @@ attribute @s[tag=fireborn] generic.attack_damage modifier add 0d3e7042-5388-4c6f
 attribute @s[tag=red_loki] generic.max_health modifier add c09f9528-85da-4019-abfa-2f634152cef7 "red_loki" -4 add
 attribute @s[tag=red_loki] generic.attack_damage modifier add d47f4fd7-47df-43f0-a6e4-ff5aeef81633 "red_loki_dmg" -1 add
 
+attribute @s[tag=floraling] generic.max_health modifier add 64d3a220-5722-4b6f-84f4-626586845d05 "floraling" -6 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0

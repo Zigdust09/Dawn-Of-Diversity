@@ -51,3 +51,7 @@ function dod:misc/triggers/speciestell
 function dod:species/night_walker/night_walker_effects_2
 
 
+
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:arrow"}}] at @s on origin if entity @s[tag=floraling] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:arrow"}},limit=1,sort=nearest,distance=..1] run function dod:species/floraling/arrow_change1
+
+

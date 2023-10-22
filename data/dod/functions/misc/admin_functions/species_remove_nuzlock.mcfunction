@@ -18,6 +18,8 @@ tag @s remove fireborn
 
 tag @s remove red_loki
 
+tag @s remove floraling
+
 #insertbefore
 
 tag @s remove has_species

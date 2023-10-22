@@ -18,6 +18,8 @@ tag @s remove fireborn
 tag @s remove fireborn_has_been
 tag @s remove red_loki
 tag @s remove red_loki_has_been
+tag @s remove floraling
+tag @s remove floraling_has_been
 #insertbefore
 tag @a remove dod_rnd_has_all_species
 

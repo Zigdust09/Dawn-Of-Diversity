@@ -15,6 +15,7 @@ execute as @a[scores={dod_species_trigger=7}] unless entity @e[tag=species_black
 execute as @a[scores={dod_species_trigger=8}] unless entity @e[tag=species_blacklist,tag=icelander_blacklist] run function dod:species/icelander/icelander_confirm
 execute as @a[scores={dod_species_trigger=9}] unless entity @e[tag=species_blacklist,tag=fireborn_blacklist] run function dod:species/fireborn/fireborn_confirm
 execute as @a[scores={dod_species_trigger=10}] unless entity @e[tag=species_blacklist,tag=red_loki_blacklist] run function dod:species/red_loki/red_loki_confirm
+execute as @a[scores={dod_species_trigger=11}] unless entity @e[tag=species_blacklist,tag=floraling_blacklist] run function dod:species/floraling/floraling_confirm
 #insertbefore1
 ### Species marker 
 
@@ -30,6 +31,7 @@ execute as @a[scores={dod_species_trigger=7}] if entity @e[tag=species_blacklist
 execute as @a[scores={dod_species_trigger=8}] if entity @e[tag=species_blacklist,tag=icelander_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=9}] if entity @e[tag=species_blacklist,tag=fireborn_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=10}] if entity @e[tag=species_blacklist,tag=red_loki_blacklist] run function dod:misc/species_trigger_blacklist
+execute as @a[scores={dod_species_trigger=11}] if entity @e[tag=species_blacklist,tag=floraling_blacklist] run function dod:misc/species_trigger_blacklist
 #insertbefore2
 ### Species marker 
 
@@ -46,6 +48,7 @@ execute as @a[scores={dod_species_trigger_confirm=7}] run tag @s add werewolf
 execute as @a[scores={dod_species_trigger_confirm=8}] run tag @s add icelander
 execute as @a[scores={dod_species_trigger_confirm=9}] run tag @s add fireborn
 execute as @a[scores={dod_species_trigger_confirm=10}] run tag @s add red_loki
+execute as @a[scores={dod_species_trigger_confirm=11}] run tag @s add floraling
 #insertbefore3
 ### Species marker 
 

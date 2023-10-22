@@ -15,5 +15,8 @@ attribute @s[tag=fireborn] generic.attack_damage modifier remove 0d3e7042-5388-4
 attribute @s[tag=red_loki] generic.max_health modifier remove c09f9528-85da-4019-abfa-2f634152cef7
 attribute @s[tag=red_loki] generic.attack_damage modifier remove d47f4fd7-47df-43f0-a6e4-ff5aeef81633
 
+attribute @s[tag=floraling] generic.max_health modifier remove 64d3a220-5722-4b6f-84f4-626586845d05
+
+
 
 effect give @s instant_health 1 34 true
