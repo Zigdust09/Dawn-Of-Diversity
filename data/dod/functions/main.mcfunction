@@ -38,3 +38,4 @@ tag @a[scores={dod_egg_shifter_gamemode=1},tag=egg_shifter_smoke] remove egg_shi
 execute as @e[type=egg,nbt={Item:{tag:{egg_shifter_rotten_egg:1b}}}] at @s run function dod:species/egg_shifter/egg_run
 
 execute as @a[scores={dod_warped_right_click=1..}] run scoreboard players set @s dod_warped_right_click 0
+execute as @a[scores={dod_dammage_delt=1..}] run scoreboard players set @s dod_dammage_delt 0

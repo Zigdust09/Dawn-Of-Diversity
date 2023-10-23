@@ -14,6 +14,7 @@ scoreboard objectives add dod_health_respawn minecraft.custom:deaths
 scoreboard objectives add dod_health_respawn_walk minecraft.custom:walk_one_cm
 scoreboard objectives add dod_red_loki_speed dummy
 scoreboard objectives add dod_icelander_cooldown dummy
+scoreboard objectives add dod_dammage_delt minecraft.custom:damage_dealt
 scoreboard objectives add dod_fireborn_cooldown dummy
 scoreboard objectives add dod_fireborn_fireball_time dummy
 scoreboard objectives add dod_species_y dummy
