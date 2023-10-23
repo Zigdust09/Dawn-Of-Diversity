@@ -22,5 +22,7 @@ execute as @s[tag=red_loki] at @s run function dod:species/red_loki/red_loki
 
 execute as @s[tag=floraling] at @s run function dod:species/floraling/floraling
 
+execute as @s[tag=serpenteer] at @s run function dod:species/serpenteer/serpenteer
+
 #insertbefore
 ### Species marker 

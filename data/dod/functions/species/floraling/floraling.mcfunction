@@ -23,6 +23,7 @@ execute if block ~ ~ ~ poppy run effect give @s blindness 60 0 true
 execute if block ~ ~ ~ wither_rose run effect give @s wither 20 0 true
 execute if block ~ ~ ~ sunflower run effect give @s glowing 60 0 true
 execute if block ~ ~ ~ spore_blossom run effect give @s poison 6000 0 true
+execute if block ~ ~-1 ~ chorus_flower run effect give @s levitation 30 5 true
 
 
 

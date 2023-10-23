@@ -31,11 +31,14 @@ execute if entity @s[tag=red_loki_has_been] run tag @s add red_loki_rnd_checked
 execute if entity @e[tag=species_blacklist,tag=floraling_blacklist] run tag @s add floraling_rnd_checked
 execute if entity @s[tag=floraling_has_been] run tag @s add floraling_rnd_checked
 
+execute if entity @e[tag=species_blacklist,tag=serpenteer_blacklist] run tag @s add serpenteer_rnd_checked
+execute if entity @s[tag=serpenteer_has_been] run tag @s add serpenteer_rnd_checked
+
 #insertbefore1
 
 
 
-execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked,tag=octo_rnd_checked,tag=werewolf_rnd_checked,tag=icelander_rnd_checked,tag=fireborn_rnd_checked,tag=red_loki_rnd_checked,tag=floraling_rnd_checked] run tag @s add dod_rnd_has_all_species
+execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked,tag=octo_rnd_checked,tag=werewolf_rnd_checked,tag=icelander_rnd_checked,tag=fireborn_rnd_checked,tag=red_loki_rnd_checked,tag=floraling_rnd_checked,tag=serpenteer_rnd_checked] run tag @s add dod_rnd_has_all_species
 #insertbefore2
 
 
@@ -50,6 +53,7 @@ tag @s remove icelander_rnd_checked
 tag @s remove fireborn_rnd_checked
 tag @s remove red_loki_rnd_checked
 tag @s remove floraling_rnd_checked
+tag @s remove serpenteer_rnd_checked
 #insertbefore3
 
 

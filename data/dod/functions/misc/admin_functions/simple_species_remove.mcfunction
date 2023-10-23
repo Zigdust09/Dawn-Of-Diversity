@@ -20,6 +20,8 @@ tag @s remove red_loki
 
 tag @s remove floraling
 
+tag @s remove serpenteer
+
 #insertbefore
 
 ### species marker
