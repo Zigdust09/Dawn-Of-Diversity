@@ -22,6 +22,8 @@ tag @s remove floraling
 
 tag @s remove serpenteer
 
+tag @s remove warlock
+
 tag @s remove has_species
 
 tag @s remove dod_book_given

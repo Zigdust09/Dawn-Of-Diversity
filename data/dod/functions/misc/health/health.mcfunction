@@ -17,6 +17,8 @@ attribute @s[tag=red_loki] generic.attack_damage modifier add d47f4fd7-47df-43f0
 
 attribute @s[tag=floraling] generic.max_health modifier add 64d3a220-5722-4b6f-84f4-626586845d05 "floraling" -6 add
 
+attribute @s[tag=warlock] generic.max_health modifier add 5dde4178-a6f7-4eec-b556-24023316e663 "warlock" 10 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0

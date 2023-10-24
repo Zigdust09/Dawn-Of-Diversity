@@ -1,0 +1,1 @@
+$bossbar set minecraft:dod_warlock_soul_$(pid) value $(souls)

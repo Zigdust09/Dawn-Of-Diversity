@@ -22,6 +22,8 @@ tag @s remove floraling
 
 tag @s remove serpenteer
 
+tag @s remove warlock
+
 #insertbefore
 
 tag @s remove has_species
