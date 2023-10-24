@@ -24,5 +24,7 @@ execute as @s[tag=floraling] at @s run function dod:species/floraling/floraling
 
 execute as @s[tag=serpenteer] at @s run function dod:species/serpenteer/serpenteer
 
+execute as @s[tag=warlock] at @s run function dod:species/warlock/warlock
+
 #insertbefore
 ### Species marker 
