@@ -1,0 +1,1 @@
+give @s popped_chorus_fruit{display:{Name:'{"text":"Spectrals Orb","color":"dark_purple","italic":false}'},spectrals_orb:1b} 1

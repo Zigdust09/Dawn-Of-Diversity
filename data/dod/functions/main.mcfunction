@@ -30,6 +30,8 @@ execute if entity @a[tag=puffer] run function dod:species/puffer/puffer_trident
 
 execute if entity @a[tag=egg_shifter] run function dod:species/egg_shifter/chicken_run
 
+scoreboard players reset @a[scores={dod_player_dammage=1..}] dod_player_dammage
+
 
 
 scoreboard players remove @a dod_egg_shifter_gamemode 1

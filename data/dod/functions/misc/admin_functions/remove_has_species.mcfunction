@@ -11,6 +11,7 @@ tag @s remove red_loki_has_been
 tag @s remove floraling_has_been
 tag @s remove serpenteer_has_been
 tag @s remove warlock_has_been
+tag @s remove spectral_has_been
 #insertbefore
 
 ### Species marker 
