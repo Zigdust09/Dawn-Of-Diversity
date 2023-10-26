@@ -19,6 +19,8 @@ attribute @s[tag=floraling] generic.max_health modifier add 64d3a220-5722-4b6f-8
 
 attribute @s[tag=warlock] generic.max_health modifier add 5dde4178-a6f7-4eec-b556-24023316e663 "warlock" 10 add
 
+attribute @s[tag=spectral] generic.max_health modifier add 43265ded-dd3c-47b0-a1d1-63435221804a "spectral" -10 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0

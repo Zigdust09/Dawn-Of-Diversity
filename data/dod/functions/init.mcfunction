@@ -6,7 +6,7 @@ schedule function dod:species/end_sprinter/end_sprinter_1sec 1s replace
 schedule function dod:species/puffer/puffer_1_sec 1s replace
 schedule function dod:misc/1sec 1s replace
 schedule function dod:species/werewolf/werewolf_1sec 1s replace
-
+schedule function dod:species/spectral/1sec 1s replace
 
 ##Scoreboard Init
 scoreboard objectives add dod_pid dummy
@@ -15,8 +15,9 @@ scoreboard objectives add dod_warped_right_click minecraft.used:warped_fungus_on
 scoreboard objectives add dod_health_respawn minecraft.custom:deaths
 scoreboard objectives add dod_health_respawn_walk minecraft.custom:walk_one_cm
 scoreboard objectives add dod_red_loki_speed dummy
-scoreboard objectives add dod_warlock_dammage minecraft.custom:damage_taken
+scoreboard objectives add dod_player_dammage minecraft.custom:damage_taken
 scoreboard objectives add dod_icelander_cooldown dummy
+scoreboard objectives add dod_spectral_cooldown dummy
 scoreboard objectives add dod_dammage_delt minecraft.custom:damage_dealt
 scoreboard objectives add dod_fireborn_cooldown dummy
 scoreboard objectives add dod_fireborn_fireball_time dummy

@@ -5,7 +5,7 @@ function dod:misc/for_every_species/species_blacklist_check
 
 ##roll the value
 scoreboard players set @s dod_random_store 0
-execute store result score @s dod_random_store run random value 1..5 
+execute store result score @s dod_random_store run random value 1..14
 
 scoreboard players reset @s dod_species_trigger
 
@@ -127,6 +127,15 @@ execute if score @s dod_random_store matches 13 as @s[tag=warlock,tag=!dod_rnd_h
 execute if score @s dod_random_store matches 13 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=warlock_blacklist] run function dod:misc/for_every_species/rnd
 execute if score @s dod_random_store matches 13 as @s[tag=!warlock,tag=!warlock_has_been] at @s unless entity @e[tag=species_blacklist,tag=warlock_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Warlock"}]
 execute if score @s dod_random_store matches 13 as @s[tag=!warlock,tag=!warlock_has_been] unless entity @e[tag=species_blacklist,tag=warlock_blacklist] run function dod:species/warlock/warlock_rnd
+
+
+
+## if you have it already, go again
+execute if score @s dod_random_store matches 14 as @s[tag=spectral_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 14 as @s[tag=spectral,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 14 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=spectral_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 14 as @s[tag=!spectral,tag=!spectral_has_been] at @s unless entity @e[tag=species_blacklist,tag=spectral_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Spectral"}]
+execute if score @s dod_random_store matches 14 as @s[tag=!spectral,tag=!spectral_has_been] unless entity @e[tag=species_blacklist,tag=spectral_blacklist] run function dod:species/spectral/spectral_rnd
 
 
 

@@ -24,6 +24,8 @@ tag @s remove serpenteer
 
 tag @s remove warlock
 
+tag @s remove spectral
+
 #insertbefore
 
 ### species marker

@@ -397,7 +397,14 @@ execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_bee
 
 
 
-#tysmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+#tysmmmmmmmmmmmmmmmmmmmmmmmmmmxmmmmmmmm
+
+
+
+
+# I HATE THIS CODE SO MUCH I SWEAR TO FUCK 
+# -Raine
+#tpo*
 
 
 

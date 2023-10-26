@@ -26,5 +26,7 @@ execute as @s[tag=serpenteer] at @s run function dod:species/serpenteer/serpente
 
 execute as @s[tag=warlock] at @s run function dod:species/warlock/warlock
 
+execute as @s[tag=spectral] at @s run function dod:species/spectral/spectral
+
 #insertbefore
 ### Species marker 

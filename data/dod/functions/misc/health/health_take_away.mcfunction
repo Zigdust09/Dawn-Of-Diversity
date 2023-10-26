@@ -19,6 +19,7 @@ attribute @s[tag=floraling] generic.max_health modifier remove 64d3a220-5722-4b6
 
 attribute @s[tag=warlock] generic.max_health modifier remove 5dde4178-a6f7-4eec-b556-24023316e663
 
+attribute @s[tag=spectral] generic.max_health modifier remove 43265ded-dd3c-47b0-a1d1-63435221804a
 
 
 effect give @s instant_health 1 34 true
