@@ -26,6 +26,8 @@ tag @s remove warlock
 
 tag @s remove spectral
 
+tag @s remove dimen
+
 tag @s remove has_species
 
 tag @s remove dod_book_given

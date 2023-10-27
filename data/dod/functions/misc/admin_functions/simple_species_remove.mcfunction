@@ -26,6 +26,8 @@ tag @s remove warlock
 
 tag @s remove spectral
 
+tag @s remove dimen
+
 #insertbefore
 
 ### species marker

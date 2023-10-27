@@ -21,6 +21,8 @@ attribute @s[tag=warlock] generic.max_health modifier add 5dde4178-a6f7-4eec-b55
 
 attribute @s[tag=spectral] generic.max_health modifier add 43265ded-dd3c-47b0-a1d1-63435221804a "spectral" -10 add
 
+attribute @s[tag=dimen] generic.max_health modifier add ff071d47-63e4-4b6b-aea9-251c3e6372ed "dimen" -6 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0

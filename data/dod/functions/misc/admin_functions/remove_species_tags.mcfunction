@@ -26,6 +26,8 @@ tag @s remove warlock
 tag @s remove warlock_has_been
 tag @s remove spectral
 tag @s remove spectral_has_been
+tag @s remove dimen
+tag @s remove dimen_has_been
 #insertbefore
 tag @a remove dod_rnd_has_all_species
 

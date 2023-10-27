@@ -55,6 +55,9 @@ function dod:species/night_walker/night_walker_effects_2
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:arrow"}}] at @s on origin if entity @s[tag=floraling] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:arrow"}},limit=1,sort=nearest,distance=..1] run function dod:species/floraling/arrow_change
 
 
+effect give @a[nbt={Dimension:"dod:shard"}] night_vision 20 3 true
+effect give @a[nbt={Dimension:"dod:shard"}] haste 3 255 true
+
 
 execute as @a[tag=!dod_pid_assign,limit=1,sort=nearest] run scoreboard players add World dod_pid 1
 execute as @a[tag=!dod_pid_assign,limit=1,sort=nearest] store result score @s dod_pid run scoreboard players get World dod_pid
