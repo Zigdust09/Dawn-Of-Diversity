@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Dimension Transport","color":"dark_purple","italic":false}',Lore:['{"text":"Transports to a new dimension"}','{"text":"Put in offhand to cycle"}']},Unbreakable:1b,CustomModelData:2008001003,dimens_wand:1b} 1

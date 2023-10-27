@@ -139,6 +139,15 @@ execute if score @s dod_random_store matches 14 as @s[tag=!spectral,tag=!spectra
 
 
 
+## if you have it already, go again
+execute if score @s dod_random_store matches 15 as @s[tag=dimen_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 15 as @s[tag=dimen,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 15 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=dimen_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 15 as @s[tag=!dimen,tag=!dimen_has_been] at @s unless entity @e[tag=species_blacklist,tag=dimen_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Dimen"}]
+execute if score @s dod_random_store matches 15 as @s[tag=!dimen,tag=!dimen_has_been] unless entity @e[tag=species_blacklist,tag=dimen_blacklist] run function dod:species/dimen/dimen_rnd
+
+
+
 #insertbefore
 
 function dod:misc/dev_functions/stop

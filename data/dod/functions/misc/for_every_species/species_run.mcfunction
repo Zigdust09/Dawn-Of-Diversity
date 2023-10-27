@@ -28,5 +28,7 @@ execute as @s[tag=warlock] at @s run function dod:species/warlock/warlock
 
 execute as @s[tag=spectral] at @s run function dod:species/spectral/spectral
 
+execute as @s[tag=dimen] at @s run function dod:species/dimen/dimen
+
 #insertbefore
 ### Species marker 

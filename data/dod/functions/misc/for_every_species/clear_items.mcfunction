@@ -17,5 +17,7 @@ clear @a[tag=!fireborn] iron_boots{fireborns_boots:1b}
 
 clear @a[tag=!spectral] popped_chorus_fruit{spectrals_orb:1b}
 
+clear @a[tag=!dimen] warped_fungus_on_a_stick{dimens_wand:1b}
+
 
 schedule function dod:misc/for_every_species/clear_items 2s append
