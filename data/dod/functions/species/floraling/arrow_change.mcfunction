@@ -42,7 +42,7 @@ execute if block ~ ~ ~ sunflower run data merge entity @s {Item:{id:"minecraft:t
 
 execute if block ~ ~ ~ spore_blossom run data merge entity @s {Item:{id:"minecraft:tipped_arrow",tag:{custom_potion_effects:[{id:"minecraft:poison",amplifier:1b,duration:80000}]}}}
 
-execute if block ~ ~-1 ~ chorus_flower run data merge entity @s {Item:{id:"minecraft:tipped_arrow",tag:{custom_potion_effects:[{id:"minecraft:poison",amplifier:1b,duration:8000}]}}}
+execute if block ~ ~-1 ~ chorus_flower run data merge entity @s {Item:{id:"minecraft:tipped_arrow",tag:{custom_potion_effects:[{id:"minecraft:levitation",amplifier:3b,duration:300}]}}}
 
 execute if block ~ ~ ~ #dod:flowers run particle item arrow ~ ~ ~ 0 0 0 1 30 force
 execute if block ~ ~ ~ #dod:flowers run playsound entity.witch.drink player @a[distance=..10] ~ ~ ~ 3 1

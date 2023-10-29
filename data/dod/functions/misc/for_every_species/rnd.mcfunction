@@ -5,7 +5,7 @@ function dod:misc/for_every_species/species_blacklist_check
 
 ##roll the value
 scoreboard players set @s dod_random_store 0
-execute store result score @s dod_random_store run random value 1..14
+execute store result score @s dod_random_store run random value 1..15
 
 scoreboard players reset @s dod_species_trigger
 
@@ -145,6 +145,15 @@ execute if score @s dod_random_store matches 15 as @s[tag=dimen,tag=!dod_rnd_has
 execute if score @s dod_random_store matches 15 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=dimen_blacklist] run function dod:misc/for_every_species/rnd
 execute if score @s dod_random_store matches 15 as @s[tag=!dimen,tag=!dimen_has_been] at @s unless entity @e[tag=species_blacklist,tag=dimen_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Dimen"}]
 execute if score @s dod_random_store matches 15 as @s[tag=!dimen,tag=!dimen_has_been] unless entity @e[tag=species_blacklist,tag=dimen_blacklist] run function dod:species/dimen/dimen_rnd
+
+
+
+## if you have it already, go again
+execute if score @s dod_random_store matches 16 as @s[tag=bits_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 16 as @s[tag=bits,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 16 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=bits_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 16 as @s[tag=!bits,tag=!bits_has_been] at @s unless entity @e[tag=species_blacklist,tag=bits_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Bits"}]
+execute if score @s dod_random_store matches 16 as @s[tag=!bits,tag=!bits_has_been] unless entity @e[tag=species_blacklist,tag=bits_blacklist] run function dod:species/bits/bits_rnd
 
 
 

@@ -20,6 +20,7 @@ execute as @a[scores={dod_species_trigger=12}] unless entity @e[tag=species_blac
 execute as @a[scores={dod_species_trigger=13}] unless entity @e[tag=species_blacklist,tag=warlock_blacklist] run function dod:species/warlock/warlock_confirm
 execute as @a[scores={dod_species_trigger=14}] unless entity @e[tag=species_blacklist,tag=spectral_blacklist] run function dod:species/spectral/spectral_confirm
 execute as @a[scores={dod_species_trigger=15}] unless entity @e[tag=species_blacklist,tag=dimen_blacklist] run function dod:species/dimen/dimen_confirm
+execute as @a[scores={dod_species_trigger=16}] unless entity @e[tag=species_blacklist,tag=bits_blacklist] run function dod:species/bits/bits_confirm
 #insertbefore1
 ### Species marker 
 
@@ -40,6 +41,7 @@ execute as @a[scores={dod_species_trigger=12}] if entity @e[tag=species_blacklis
 execute as @a[scores={dod_species_trigger=13}] if entity @e[tag=species_blacklist,tag=warlock_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=14}] if entity @e[tag=species_blacklist,tag=spectral_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=15}] if entity @e[tag=species_blacklist,tag=dimen_blacklist] run function dod:misc/species_trigger_blacklist
+execute as @a[scores={dod_species_trigger=16}] if entity @e[tag=species_blacklist,tag=bits_blacklist] run function dod:misc/species_trigger_blacklist
 #insertbefore2
 ### Species marker 
 
@@ -61,6 +63,7 @@ execute as @a[scores={dod_species_trigger_confirm=12}] run tag @s add serpenteer
 execute as @a[scores={dod_species_trigger_confirm=13}] run tag @s add warlock
 execute as @a[scores={dod_species_trigger_confirm=14}] run tag @s add spectral
 execute as @a[scores={dod_species_trigger_confirm=15}] run tag @s add dimen
+execute as @a[scores={dod_species_trigger_confirm=16}] run tag @s add bits
 #insertbefore3
 ### Species marker 
 

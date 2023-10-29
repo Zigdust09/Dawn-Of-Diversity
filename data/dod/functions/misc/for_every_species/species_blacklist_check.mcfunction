@@ -43,11 +43,14 @@ execute if entity @s[tag=spectral_has_been] run tag @s add spectral_rnd_checked
 execute if entity @e[tag=species_blacklist,tag=dimen_blacklist] run tag @s add dimen_rnd_checked
 execute if entity @s[tag=dimen_has_been] run tag @s add dimen_rnd_checked
 
+execute if entity @e[tag=species_blacklist,tag=bits_blacklist] run tag @s add bits_rnd_checked
+execute if entity @s[tag=bits_has_been] run tag @s add bits_rnd_checked
+
 #insertbefore1
 
 
 
-execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked,tag=octo_rnd_checked,tag=werewolf_rnd_checked,tag=icelander_rnd_checked,tag=fireborn_rnd_checked,tag=red_loki_rnd_checked,tag=floraling_rnd_checked,tag=serpenteer_rnd_checked,tag=warlock_rnd_checked,tag=spectral_rnd_checked,tag=dimen_rnd_checked] run tag @s add dod_rnd_has_all_species
+execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked,tag=octo_rnd_checked,tag=werewolf_rnd_checked,tag=icelander_rnd_checked,tag=fireborn_rnd_checked,tag=red_loki_rnd_checked,tag=floraling_rnd_checked,tag=serpenteer_rnd_checked,tag=warlock_rnd_checked,tag=spectral_rnd_checked,tag=dimen_rnd_checked,tag=bits_rnd_checked] run tag @s add dod_rnd_has_all_species
 #insertbefore2
 
 
@@ -66,6 +69,7 @@ tag @s remove serpenteer_rnd_checked
 tag @s remove warlock_rnd_checked
 tag @s remove spectral_rnd_checked
 tag @s remove dimen_rnd_checked
+tag @s remove bits_rnd_checked
 #insertbefore3
 
 

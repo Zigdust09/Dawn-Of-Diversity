@@ -30,5 +30,7 @@ execute as @s[tag=spectral] at @s run function dod:species/spectral/spectral
 
 execute as @s[tag=dimen] at @s run function dod:species/dimen/dimen
 
+execute as @s[tag=bits] at @s run function dod:species/bits/bits
+
 #insertbefore
 ### Species marker 
