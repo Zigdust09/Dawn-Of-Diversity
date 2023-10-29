@@ -28,6 +28,8 @@ tag @s remove spectral
 
 tag @s remove dimen
 
+tag @s remove bits
+
 #insertbefore
 
 tag @s remove has_species

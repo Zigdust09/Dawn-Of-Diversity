@@ -30,6 +30,8 @@ execute as @a[tag=spectral] unless entity @e[distance=0..30,nbt={Item:{id:"minec
 
 execute as @a[tag=dimen] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/dimen/dimen_effects
 
+execute as @a[tag=bits] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/bits/bits_effects
+
 #insertbefore
 ### Species marker
 

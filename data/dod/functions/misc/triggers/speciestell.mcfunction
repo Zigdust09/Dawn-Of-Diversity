@@ -13,6 +13,7 @@ tellraw @a[scores={dod_what_species_am_i=1..},tag=serpenteer] "You are a Serpent
 tellraw @a[scores={dod_what_species_am_i=1..},tag=warlock] "You are a Warlock"
 tellraw @a[scores={dod_what_species_am_i=1..},tag=spectral] "You are a Spectral"
 tellraw @a[scores={dod_what_species_am_i=1..},tag=dimen] "You are a Dimen"
+tellraw @a[scores={dod_what_species_am_i=1..},tag=bits] "You are a Bits"
 #insertbefore
 scoreboard players reset @a dod_what_species_am_i
 scoreboard players enable @a dod_what_species_am_i

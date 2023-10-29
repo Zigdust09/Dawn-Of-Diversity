@@ -25,5 +25,7 @@ attribute @s[tag=spectral] generic.max_health modifier remove 43265ded-dd3c-47b0
 
 attribute @s[tag=dimen] generic.max_health modifier remove ff071d47-63e4-4b6b-aea9-251c3e6372ed
 
+attribute @s[tag=bits] generic.max_health modifier remove 595cd892-bcdc-4e3b-a914-961463d8ac78
+
 
 effect give @s instant_health 1 34 true

@@ -125,8 +125,8 @@ def simple_species_remove(species):
 
 
 
-def species_remove_nuzlock(species):
-    file_path = "./data/dod/functions/misc/admin_functions/species_remove_nuzlock.mcfunction"
+def species_remove_nuzlocke(species):
+    file_path = "./data/dod/functions/misc/admin_functions/species_remove_nuzlocke.mcfunction"
     text_to_add = "tag @s remove " + species + "\n\n"
 
     # Read the contents of the file
@@ -756,7 +756,7 @@ species_remove(species_name)
 remove_has_species(species_name)
 remove_species_tags(species_name)
 simple_species_remove(species_name)
-species_remove_nuzlock(species_name)
+species_remove_nuzlocke(species_name)
 give_species_effects(species_name)
 species_blacklist_check1(species_name)
 species_blacklist_check2(species_name)

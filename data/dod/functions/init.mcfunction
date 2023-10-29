@@ -37,7 +37,7 @@ scoreboard objectives add dod_moon_constant_8 dummy
 scoreboard objectives add dod_moon_constant_1 dummy
 scoreboard objectives add dod_octo_still dummy
 scoreboard objectives add dod_hp dummy
-scoreboard objectives add dod_nuzlock_1_is_on dummy
+scoreboard objectives add dod_nuzlocke_1_is_on dummy
 scoreboard objectives add dod_egg_shifter_gamemode dummy
 scoreboard objectives add dod_permadeath_1_is_on dummy
 scoreboard objectives add dod_random_species_1_is_on dummy

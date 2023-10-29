@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Gust","color":"white","italic":false}',Lore:['{"text":"Pushes entites away"}']},Unbreakable:1b,CustomModelData:2008001001,bits_wand:1b} 1

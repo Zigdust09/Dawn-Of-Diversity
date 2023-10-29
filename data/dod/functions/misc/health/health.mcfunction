@@ -23,6 +23,8 @@ attribute @s[tag=spectral] generic.max_health modifier add 43265ded-dd3c-47b0-a1
 
 attribute @s[tag=dimen] generic.max_health modifier add ff071d47-63e4-4b6b-aea9-251c3e6372ed "dimen" -6 add
 
+attribute @s[tag=bits] generic.max_health modifier add 595cd892-bcdc-4e3b-a914-961463d8ac78 "bits" 6 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0
