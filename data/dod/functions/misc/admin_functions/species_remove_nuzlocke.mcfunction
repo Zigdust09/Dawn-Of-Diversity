@@ -30,6 +30,10 @@ tag @s remove dimen
 
 tag @s remove bits
 
+tag @s remove phase_shifter
+
+tag @s remove wolf_born
+
 #insertbefore
 
 tag @s remove has_species

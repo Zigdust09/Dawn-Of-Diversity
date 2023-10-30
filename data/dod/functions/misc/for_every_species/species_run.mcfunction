@@ -32,5 +32,9 @@ execute as @s[tag=dimen] at @s run function dod:species/dimen/dimen
 
 execute as @s[tag=bits] at @s run function dod:species/bits/bits
 
+execute as @s[tag=phase_shifter] at @s run function dod:species/phase_shifter/phase_shifter
+
+execute as @s[tag=wolf_born] at @s run function dod:species/wolf_born/wolf_born
+
 #insertbefore
 ### Species marker 

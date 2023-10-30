@@ -41,3 +41,6 @@ execute as @e[type=egg,nbt={Item:{tag:{egg_shifter_rotten_egg:1b}}}] at @s run f
 
 execute as @a[scores={dod_warped_right_click=1..}] run scoreboard players set @s dod_warped_right_click 0
 execute as @a[scores={dod_dammage_delt=1..}] run scoreboard players set @s dod_dammage_delt 0
+
+
+tag @e[type=arrow,tag=!dod_arrow_check] add dod_arrow_check
