@@ -30,6 +30,10 @@ tag @s remove dimen
 tag @s remove dimen_has_been
 tag @s remove bits
 tag @s remove bits_has_been
+tag @s remove phase_shifter
+tag @s remove phase_shifter_has_been
+tag @s remove wolf_born
+tag @s remove wolf_born_has_been
 #insertbefore
 tag @a remove dod_rnd_has_all_species
 

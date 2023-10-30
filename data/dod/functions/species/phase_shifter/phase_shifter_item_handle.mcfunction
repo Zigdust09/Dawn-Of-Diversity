@@ -1,0 +1,1 @@
+give @s bow{display:{Name:'{"text":"Phase Shifters Bow","color":"green","italic":false}'},Unbreakable:1b,phase_shifters_bow:1b,Enchantments:[{id:"minecraft:punch",lvl:3s},{id:"minecraft:infinity",lvl:1s}]} 1

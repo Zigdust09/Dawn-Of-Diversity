@@ -1,0 +1,1 @@
+execute as @s[tag=!equip] run function dod:species/wolf_born/wolf_born_item_handle

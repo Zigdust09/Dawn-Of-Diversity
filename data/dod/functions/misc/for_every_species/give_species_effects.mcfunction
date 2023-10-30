@@ -32,6 +32,10 @@ execute as @a[tag=dimen] unless entity @e[distance=0..30,nbt={Item:{id:"minecraf
 
 execute as @a[tag=bits] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/bits/bits_effects
 
+execute as @a[tag=phase_shifter] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/phase_shifter/phase_shifter_effects
+
+execute as @a[tag=wolf_born] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/wolf_born/wolf_born_effects
+
 #insertbefore
 ### Species marker
 

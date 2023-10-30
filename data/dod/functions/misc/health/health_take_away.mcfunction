@@ -27,5 +27,7 @@ attribute @s[tag=dimen] generic.max_health modifier remove ff071d47-63e4-4b6b-ae
 
 attribute @s[tag=bits] generic.max_health modifier remove 595cd892-bcdc-4e3b-a914-961463d8ac78
 
+attribute @s[tag=phase_shifter] generic.max_health modifier remove f3edc288-be89-4e29-b557-87e77933c6ec
+
 
 effect give @s instant_health 1 34 true
