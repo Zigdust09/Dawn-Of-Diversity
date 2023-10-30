@@ -29,5 +29,6 @@ attribute @s[tag=bits] generic.max_health modifier remove 595cd892-bcdc-4e3b-a91
 
 attribute @s[tag=phase_shifter] generic.max_health modifier remove f3edc288-be89-4e29-b557-87e77933c6ec
 
+attribute @s[tag=wolf_born] generic.max_health modifier remove cc1d6ef4-b3b1-4efe-96dd-9ac9e00279a6
 
 effect give @s instant_health 1 34 true
