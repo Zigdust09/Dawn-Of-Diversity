@@ -27,6 +27,8 @@ attribute @s[tag=bits] generic.max_health modifier add 595cd892-bcdc-4e3b-a914-9
 
 attribute @s[tag=phase_shifter] generic.max_health modifier add f3edc288-be89-4e29-b557-87e77933c6ec "phase_shifter" -8 add
 
+attribute @s[tag=wolf_born] generic.max_health modifier add 808c5c67-a668-4411-83d0-219ad91de654 "wolf born" -8 add
+
 ##resets everything
 scoreboard players set @s dod_health_respawn 0
 scoreboard players set @s dod_health_respawn_walk 0

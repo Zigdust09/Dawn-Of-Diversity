@@ -64,3 +64,4 @@ execute as @a[tag=!dod_pid_assign,limit=1,sort=nearest] store result score @s do
 execute as @a[tag=!dod_pid_assign,limit=1,sort=nearest] run tag @s add dod_pid_assign
 
 
+execute if entity @a[tag=wolf_born] run function dod:species/wolf_born/bone_check
