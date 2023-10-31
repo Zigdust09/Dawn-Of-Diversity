@@ -18,9 +18,14 @@ scoreboard objectives add dod_red_loki_speed dummy
 scoreboard objectives add dod_player_dammage minecraft.custom:damage_taken
 scoreboard objectives add dod_icelander_cooldown dummy
 scoreboard objectives add dod_dimen_list dummy
+scoreboard objectives add dod_copper_born_oxidation dummy
+scoreboard objectives add dod_copper_born_axe minecraft.dropped:iron_axe
+scoreboard objectives add dod_copper_born_copper minecraft.dropped:copper_block
+
 scoreboard objectives add dod_spectral_cooldown dummy
 scoreboard objectives add dod_dammage_delt minecraft.custom:damage_dealt
 scoreboard objectives add dod_fireborn_cooldown dummy
+scoreboard objectives add dod_copper_born_limit dummy
 scoreboard objectives add dod_fireborn_fireball_time dummy
 scoreboard objectives add dod_species_y dummy
 scoreboard objectives add dod_fire_time dummy
@@ -38,6 +43,8 @@ scoreboard objectives add dod_moon_constant_1 dummy
 scoreboard objectives add dod_octo_still dummy
 scoreboard objectives add dod_hp dummy
 scoreboard objectives add dod_nuzlocke_1_is_on dummy
+scoreboard objectives add dod_optional_settings_1_is_on dummy
+
 scoreboard objectives add dod_egg_shifter_gamemode dummy
 scoreboard objectives add dod_permadeath_1_is_on dummy
 scoreboard objectives add dod_random_species_1_is_on dummy

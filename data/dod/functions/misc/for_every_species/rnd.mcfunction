@@ -175,6 +175,15 @@ execute if score @s dod_random_store matches 18 as @s[tag=!wolf_born,tag=!wolf_b
 
 
 
+## if you have it already, go again
+execute if score @s dod_random_store matches 19 as @s[tag=copper_born_has_been,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 19 as @s[tag=copper_born,tag=!dod_rnd_has_all_species] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 19 as @s[tag=!dod_rnd_has_all_species] if entity @e[tag=species_blacklist,tag=copper_born_blacklist] run function dod:misc/for_every_species/rnd
+execute if score @s dod_random_store matches 19 as @s[tag=!copper_born,tag=!copper_born_has_been] at @s unless entity @e[tag=species_blacklist,tag=copper_born_blacklist] run tellraw @a[distance=0..] [{"selector":"@s","bold":false,"italic":false},{"text":" Is now a Copper Born"}]
+execute if score @s dod_random_store matches 19 as @s[tag=!copper_born,tag=!copper_born_has_been] unless entity @e[tag=species_blacklist,tag=copper_born_blacklist] run function dod:species/copper_born/copper_born_rnd
+
+
+
 #insertbefore
 
 function dod:misc/dev_functions/stop
