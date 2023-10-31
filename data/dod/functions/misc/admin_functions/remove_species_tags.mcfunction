@@ -34,6 +34,8 @@ tag @s remove phase_shifter
 tag @s remove phase_shifter_has_been
 tag @s remove wolf_born
 tag @s remove wolf_born_has_been
+tag @s remove copper_born
+tag @s remove copper_born_has_been
 #insertbefore
 tag @a remove dod_rnd_has_all_species
 

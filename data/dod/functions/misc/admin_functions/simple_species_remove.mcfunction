@@ -34,6 +34,8 @@ tag @s remove phase_shifter
 
 tag @s remove wolf_born
 
+tag @s remove copper_born
+
 #insertbefore
 
 ### species marker
