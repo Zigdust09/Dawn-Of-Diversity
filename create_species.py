@@ -43,7 +43,7 @@ def species_remove(species):
 def remove_has_species(species):
     file_path = "./data/dod/functions/misc/admin_functions/remove_has_species.mcfunction"
     text_to_add = "tag @s remove " + species + "_has_been" + "\n"
-
+    
     # Read the contents of the file
     with open(file_path, "r") as file:
         lines = file.readlines()
@@ -405,7 +405,6 @@ execute if score @s dod_random_store matches {1} as @s[tag=!{0},tag=!{0}_has_bee
 # I HATE THIS CODE SO MUCH I SWEAR TO FUCK 
 # -Raine
 #tpo*
-
 
 
 

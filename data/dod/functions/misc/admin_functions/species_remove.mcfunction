@@ -38,6 +38,7 @@ tag @s remove wolf_born
 
 tag @s remove copper_born
 
+#insertbefore
 tag @s remove has_species
 
 tag @s remove dod_book_given

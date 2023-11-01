@@ -38,6 +38,7 @@ execute as @a[tag=wolf_born] unless entity @e[distance=0..30,nbt={Item:{id:"mine
 
 execute as @a[tag=copper_born] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/copper_born/copper_born_effects
 
+
 #insertbefore
 ### Species marker
 

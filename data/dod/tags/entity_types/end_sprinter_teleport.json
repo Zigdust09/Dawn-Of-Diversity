@@ -22,7 +22,11 @@
           "experience_orb",
           "eye_of_ender",
           "dragon_fireball",
+<<<<<<< HEAD
 >>>>>>> b1a332f (started on end sprinter wawa)
+=======
+          "player",
+>>>>>>> db36295 ([raine] fix horrific merge conflicts)
           "end_crystal",
           "boat",
           "chest_boat",
