@@ -15,3 +15,4 @@ effect give @s[predicate=dod:watercheck] jump_boost 15 200 true
 
 
 #for da wawa
+#for da wawa2
