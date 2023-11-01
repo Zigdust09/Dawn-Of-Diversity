@@ -1,5 +1,6 @@
 
 ##sets the health
+
 attribute @s[tag=end_sprinter] generic.max_health modifier add b4f655e8-c3be-4279-930e-07370ee99520 "end_sprinter" -4 add
      
 attribute @s[tag=egg_shifter] generic.attack_damage modifier add d436f500-09a9-451c-b9f8-2ff3e80ecfca "egg_shifter_default_dmg" -10 add
@@ -28,6 +29,7 @@ attribute @s[tag=bits] generic.max_health modifier add 595cd892-bcdc-4e3b-a914-9
 attribute @s[tag=phase_shifter] generic.max_health modifier add f3edc288-be89-4e29-b557-87e77933c6ec "phase_shifter" -8 add
 
 attribute @s[tag=wolf_born] generic.max_health modifier add 808c5c67-a668-4411-83d0-219ad91de654 "wolf born" -8 add
+
 
 ##resets everything
 scoreboard players set @s dod_health_respawn 0

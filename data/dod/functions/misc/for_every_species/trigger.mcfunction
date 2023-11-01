@@ -10,6 +10,7 @@ execute as @a[scores={dod_species_trigger=2}] unless entity @e[tag=species_black
 execute as @a[scores={dod_species_trigger=3}] unless entity @e[tag=species_blacklist,tag=puffer_blacklist] run function dod:species/puffer/puffer_confirm
 execute as @a[scores={dod_species_trigger=4}] unless entity @e[tag=species_blacklist,tag=night_walker_blacklist] run function dod:species/night_walker/night_walker_confirm
 execute as @a[scores={dod_species_trigger=5}] unless entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:species/egg_shifter/egg_shifter_confirm
+
 execute as @a[scores={dod_species_trigger=6}] unless entity @e[tag=species_blacklist,tag=octo_blacklist] run function dod:species/octo/octo_confirm
 execute as @a[scores={dod_species_trigger=7}] unless entity @e[tag=species_blacklist,tag=werewolf_blacklist] run function dod:species/werewolf/werewolf_confirm
 execute as @a[scores={dod_species_trigger=8}] unless entity @e[tag=species_blacklist,tag=icelander_blacklist] run function dod:species/icelander/icelander_confirm
@@ -24,6 +25,7 @@ execute as @a[scores={dod_species_trigger=16}] unless entity @e[tag=species_blac
 execute as @a[scores={dod_species_trigger=17}] unless entity @e[tag=species_blacklist,tag=phase_shifter_blacklist] run function dod:species/phase_shifter/phase_shifter_confirm
 execute as @a[scores={dod_species_trigger=18}] unless entity @e[tag=species_blacklist,tag=wolf_born_blacklist] run function dod:species/wolf_born/wolf_born_confirm
 execute as @a[scores={dod_species_trigger=19}] unless entity @e[tag=species_blacklist,tag=copper_born_blacklist] run function dod:species/copper_born/copper_born_confirm
+
 #insertbefore1
 ### Species marker 
 
@@ -34,6 +36,7 @@ execute as @a[scores={dod_species_trigger=2}] if entity @e[tag=species_blacklist
 execute as @a[scores={dod_species_trigger=3}] if entity @e[tag=species_blacklist,tag=puffer_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=4}] if entity @e[tag=species_blacklist,tag=night_walker_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=5}] if entity @e[tag=species_blacklist,tag=egg_shifter_blacklist] run function dod:misc/species_trigger_blacklist
+
 execute as @a[scores={dod_species_trigger=6}] if entity @e[tag=species_blacklist,tag=octo_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=7}] if entity @e[tag=species_blacklist,tag=werewolf_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=8}] if entity @e[tag=species_blacklist,tag=icelander_blacklist] run function dod:misc/species_trigger_blacklist
@@ -48,6 +51,7 @@ execute as @a[scores={dod_species_trigger=16}] if entity @e[tag=species_blacklis
 execute as @a[scores={dod_species_trigger=17}] if entity @e[tag=species_blacklist,tag=phase_shifter_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=18}] if entity @e[tag=species_blacklist,tag=wolf_born_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=19}] if entity @e[tag=species_blacklist,tag=copper_born_blacklist] run function dod:misc/species_trigger_blacklist
+
 #insertbefore2
 ### Species marker 
 
@@ -59,6 +63,7 @@ execute as @a[scores={dod_species_trigger_confirm=2}] run tag @s add skyborn
 execute as @a[scores={dod_species_trigger_confirm=3}] run tag @s add puffer
 execute as @a[scores={dod_species_trigger_confirm=4}] run tag @s add night_walker
 execute as @a[scores={dod_species_trigger_confirm=5}] run tag @s add egg_shifter
+
 execute as @a[scores={dod_species_trigger_confirm=6}] run tag @s add octo
 execute as @a[scores={dod_species_trigger_confirm=7}] run tag @s add werewolf
 execute as @a[scores={dod_species_trigger_confirm=8}] run tag @s add icelander
@@ -73,6 +78,7 @@ execute as @a[scores={dod_species_trigger_confirm=16}] run tag @s add bits
 execute as @a[scores={dod_species_trigger_confirm=17}] run tag @s add phase_shifter
 execute as @a[scores={dod_species_trigger_confirm=18}] run tag @s add wolf_born
 execute as @a[scores={dod_species_trigger_confirm=19}] run tag @s add copper_born
+
 #insertbefore3
 ### Species marker 
 

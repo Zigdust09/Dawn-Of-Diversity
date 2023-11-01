@@ -1,3 +1,4 @@
+
 execute as @s[tag=!equip] run function dod:species/egg_shifter/egg_shifter_item_handle
 
 scoreboard players add @s[predicate=dod:sneak] dod_egg_shifter_time 1 
@@ -27,5 +28,3 @@ execute unless predicate dod:sneak as @s[tag=egg_shifter_sneak] run function dod
 
 execute if predicate dod:sneak run tag @s add egg_shifter_sneak
 execute unless predicate dod:sneak run tag @s remove egg_shifter_sneak
-
-
