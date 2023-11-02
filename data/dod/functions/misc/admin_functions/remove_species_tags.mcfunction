@@ -39,6 +39,6 @@ tag @s remove copper_born_has_been
 tag @s remove demonic
 tag @s remove demonic_has_been
 #insertbefore
-tag @a remove dod_rnd_has_all_species
+tag @s remove dod_rnd_has_all_species
 
 ### Species marker 

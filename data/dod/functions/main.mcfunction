@@ -6,7 +6,6 @@ execute as @a run function dod:misc/for_every_species/species_blacklist_check
 
 ##does the respawn code
 execute as @e[scores={dod_health_respawn=1..}] run function dod:misc/respawn_code
-scoreboard players reset @a dod_health_respawn_walk
 
 execute as @a store result score @s dod_fall_distace run data get entity @s FallDistance 0.5
 execute as @a store result score @s dod_hp run data get entity @s Health 1

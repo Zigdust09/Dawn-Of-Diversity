@@ -1,5 +1,4 @@
 ##resets
-scoreboard players reset @s dod_health_respawn_walk
 scoreboard players reset @s dod_health_respawn
 
 scoreboard players set @s[tag=puffer] dod_puffer_air 1000
@@ -12,6 +11,3 @@ execute as @s[tag=!dod_rnd_has_all_species] if score World dod_nuzlocke_1_is_on 
 
 ##corrects health
 function dod:misc/health/health
-
-
-

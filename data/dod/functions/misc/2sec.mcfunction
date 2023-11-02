@@ -11,7 +11,7 @@ execute if score World dod_random_species_1_is_on matches 0 run function dod:mis
 execute if score World dod_random_species_1_is_on matches 1 run function dod:misc/book/instruction_bookgive
 
 
-execute as @e[tag=octo_mark] at @s unless entity @a[tag=octo,distance=..10] run kill @s
+execute as @e[tag=marker,tag=octo_mark] at @s unless entity @a[tag=octo,distance=..10] run kill @s
 
 
 
@@ -32,7 +32,6 @@ execute if score World dod_random_species_1_is_on matches 1 as @a[tag=!has_speci
 
 ##runs the permadeath code
 execute if score World dod_permadeath_1_is_on matches 1 as @a[tag=dod_rnd_has_all_species] run function dod:misc/permadeath
-execute if score World dod_permadeath_1_is_on matches 0 as @a[tag=dod_rnd_has_all_species] run function dod:misc/admin_functions/remove_species_tags
 
 
 ##runs the "pick a species" code

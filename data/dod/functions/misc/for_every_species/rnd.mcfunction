@@ -6,7 +6,7 @@ function dod:misc/for_every_species/species_blacklist_check
 ##roll the value
 scoreboard players set @s dod_random_store 0
 
-execute store result score @s dod_random_store run random value 1..15
+execute store result score @s dod_random_store run random value 1..20
 
 scoreboard players reset @s dod_species_trigger
 
