@@ -36,6 +36,8 @@ tag @s remove wolf_born
 
 tag @s remove copper_born
 
+tag @s remove demonic
+
 #insertbefore
 
 ### species marker

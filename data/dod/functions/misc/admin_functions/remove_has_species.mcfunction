@@ -1,3 +1,4 @@
+tag @s remove demonic_has_been
 tag @a remove end_sprinter_has_been
 tag @a remove skyborn_has_been
 tag @a remove puffer_has_been

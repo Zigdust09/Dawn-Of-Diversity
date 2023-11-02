@@ -1,7 +1,7 @@
 execute as @s[tag=!equip] run function dod:species/copper_born/copper_born_item_handle
 
 scoreboard players remove @s[scores={dod_copper_born_oxidation=1..}] dod_copper_born_oxidation 1
-scoreboard players remove @s[scores={dod_copper_born_oxidation=1..},predicate=dod:watercheck] dod_copper_born_oxidation 4
+scoreboard players remove @s[scores={dod_copper_born_oxidation=1..},predicate=dod:watercheck,nbt=!{RootVehicle:{Entity:{id:"minecraft:boat"}}}] dod_copper_born_oxidation 4
 
 
 execute as @s[scores={dod_copper_born_axe=1}] run function dod:species/copper_born/scrape_off

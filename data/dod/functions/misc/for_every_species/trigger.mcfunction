@@ -26,6 +26,7 @@ execute as @a[scores={dod_species_trigger=17}] unless entity @e[tag=species_blac
 execute as @a[scores={dod_species_trigger=18}] unless entity @e[tag=species_blacklist,tag=wolf_born_blacklist] run function dod:species/wolf_born/wolf_born_confirm
 execute as @a[scores={dod_species_trigger=19}] unless entity @e[tag=species_blacklist,tag=copper_born_blacklist] run function dod:species/copper_born/copper_born_confirm
 
+execute as @a[scores={dod_species_trigger=20}] unless entity @e[tag=species_blacklist,tag=demonic_blacklist] run function dod:species/demonic/demonic_confirm
 #insertbefore1
 ### Species marker 
 
@@ -52,6 +53,7 @@ execute as @a[scores={dod_species_trigger=17}] if entity @e[tag=species_blacklis
 execute as @a[scores={dod_species_trigger=18}] if entity @e[tag=species_blacklist,tag=wolf_born_blacklist] run function dod:misc/species_trigger_blacklist
 execute as @a[scores={dod_species_trigger=19}] if entity @e[tag=species_blacklist,tag=copper_born_blacklist] run function dod:misc/species_trigger_blacklist
 
+execute as @a[scores={dod_species_trigger=20}] if entity @e[tag=species_blacklist,tag=demonic_blacklist] run function dod:misc/species_trigger_blacklist
 #insertbefore2
 ### Species marker 
 
@@ -79,6 +81,7 @@ execute as @a[scores={dod_species_trigger_confirm=17}] run tag @s add phase_shif
 execute as @a[scores={dod_species_trigger_confirm=18}] run tag @s add wolf_born
 execute as @a[scores={dod_species_trigger_confirm=19}] run tag @s add copper_born
 
+execute as @a[scores={dod_species_trigger_confirm=20}] run tag @s add demonic
 #insertbefore3
 ### Species marker 
 

@@ -4,8 +4,8 @@ execute as @s[tag=!equip] run function dod:species/egg_shifter/egg_shifter_item_
 scoreboard players add @s[predicate=dod:sneak] dod_egg_shifter_time 1 
 scoreboard players reset @s[predicate=!dod:sneak] dod_egg_shifter_time
 
-give @s[scores={dod_egg_shifter_time=600..}] egg{display:{Name:'{"text":"Rotten Egg","color":"green","italic":false}'},egg_shifter_rotten_egg:1b}
-scoreboard players reset @s[scores={dod_egg_shifter_time=600..}] dod_egg_shifter_time
+give @s[scores={dod_egg_shifter_time=1200..}] egg{display:{Name:'{"text":"Rotten Egg","color":"green","italic":false}'},egg_shifter_rotten_egg:1b}
+scoreboard players reset @s[scores={dod_egg_shifter_time=1200..}] dod_egg_shifter_time
 
 
 

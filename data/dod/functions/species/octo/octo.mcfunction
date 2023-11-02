@@ -2,7 +2,7 @@ execute as @s[tag=!equip] run function dod:species/octo/octo_item_handle
 
 
 
-effect give @s[predicate=!dod:watercheck] blindness 3 1 true
+effect give @s[predicate=!dod:,nbt=!{RootVehicle:{Entity:{id:"minecraft:boat"}}}] blindness 3 1 true
 
 effect give @s[scores={dod_hp=..12}] invisibility 3 1 false
 effect give @s[scores={dod_hp=..1}] invisibility 3 1 true

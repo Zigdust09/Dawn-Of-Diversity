@@ -19,6 +19,7 @@ tellraw @a[scores={dod_what_species_am_i=1..},tag=phase_shifter] "You are a Phas
 tellraw @a[scores={dod_what_species_am_i=1..},tag=wolf_born] "You are a Wolf Born"
 tellraw @a[scores={dod_what_species_am_i=1..},tag=copper_born] "You are a Copper Born"
 
+tellraw @a[scores={dod_what_species_am_i=1..},tag=demonic] "You are a Demonic"
 #insertbefore
 scoreboard players reset @a dod_what_species_am_i
 scoreboard players enable @a dod_what_species_am_i

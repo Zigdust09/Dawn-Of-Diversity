@@ -31,3 +31,23 @@ execute if block ~ ~-1 ~ chorus_flower run effect give @s levitation 30 5 true
 execute if block ~ ~ ~ #dod:flowers run particle block moss_block ~ ~ ~ 0 0 0 1 30 force
 execute if block ~ ~ ~ #dod:flowers run playsound entity.player.burp player @a[distance=..10] ~ ~ ~ 3 1
 execute if block ~ ~ ~ #dod:flowers run setblock ~ ~ ~ air
+
+
+
+damage @s[scores={dod_food_beef=1..}] 10 generic
+damage @s[scores={dod_food_chicken=1..}] 10 generic
+damage @s[scores={dod_food_cod=1..}] 10 generic
+damage @s[scores={dod_food_cooked_beef=1..}] 10 generic
+damage @s[scores={dod_food_cooked_chicken=1..}] 10 generic
+damage @s[scores={dod_food_cooked_cod=1..}] 10 generic
+damage @s[scores={dod_food_cooked_mutton=1..}] 10 generic
+damage @s[scores={dod_food_cooked_porkchop=1..}] 10 generic
+damage @s[scores={dod_food_cooked_rabbit=1..}] 10 generic
+damage @s[scores={dod_food_cooked_salmon=1..}] 10 generic
+damage @s[scores={dod_food_mutton=1..}] 10 generic
+damage @s[scores={dod_food_porkchop=1..}] 10 generic
+damage @s[scores={dod_food_rabbit=1..}] 10 generic
+damage @s[scores={dod_food_rotten_flesh=1..}] 10 generic
+damage @s[scores={dod_food_pufferfish=1..}] 10 generic
+damage @s[scores={dod_food_salmon=1..}] 10 generic
+damage @s[scores={dod_food_tropical_fish=1..}] 10 generic

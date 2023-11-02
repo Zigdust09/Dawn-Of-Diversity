@@ -1,0 +1,1 @@
+execute unless entity @e[type=boat,distance=..2] run damage @s 3 minecraft:generic

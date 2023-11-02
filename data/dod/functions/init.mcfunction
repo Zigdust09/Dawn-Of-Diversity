@@ -21,7 +21,8 @@ scoreboard objectives add dod_dimen_list dummy
 scoreboard objectives add dod_copper_born_oxidation dummy
 scoreboard objectives add dod_copper_born_axe minecraft.dropped:iron_axe
 scoreboard objectives add dod_copper_born_copper minecraft.dropped:copper_block
-
+scoreboard objectives add dod_demonic_tentacle_marker_count dummy
+scoreboard objectives add dod_demonic_tentacle_marker_hight_store dummy
 scoreboard objectives add dod_spectral_cooldown dummy
 scoreboard objectives add dod_dammage_delt minecraft.custom:damage_dealt
 scoreboard objectives add dod_fireborn_cooldown dummy
@@ -30,15 +31,20 @@ scoreboard objectives add dod_fireborn_fireball_time dummy
 scoreboard objectives add dod_species_y dummy
 scoreboard objectives add dod_fire_time dummy
 scoreboard objectives add dod_warlock_souls minecraft.custom:mob_kills
+scoreboard objectives add dod_demonic_marker_raycast_limit dummy
 scoreboard objectives add dod_egg_shifter_time dummy
 scoreboard objectives add dod_skyborn_sneak dummy
 scoreboard objectives add dod_icelander_ray dummy
 scoreboard objectives add dod_night_walker_amethyst minecraft.dropped:amethyst_block
 scoreboard objectives add dod_red_loki_sugar minecraft.dropped:sugar
+scoreboard objectives add dod_trigger_equip trigger
+scoreboard objectives add dod_what_species_am_i trigger
+scoreboard objectives add dod_trigger_equip trigger
 scoreboard objectives add dod_iceblock_timer dummy
 scoreboard objectives add dod_moon_night_math dummy
 scoreboard objectives add dod_puffer_air dummy
 scoreboard objectives add dod_moon_constant_8 dummy
+scoreboard objectives add dod_demonic_constant_10 dummy
 scoreboard objectives add dod_moon_constant_1 dummy
 scoreboard objectives add dod_octo_still dummy
 scoreboard objectives add dod_hp dummy

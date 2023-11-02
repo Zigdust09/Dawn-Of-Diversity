@@ -66,8 +66,10 @@ execute as @a[tag=!dod_pid_assign,limit=1,sort=nearest] store result score @s do
 execute as @a[tag=!dod_pid_assign,limit=1,sort=nearest] run tag @s add dod_pid_assign
 
 
+execute as @a[tag=egg_shifter,predicate=dod:sneak] run function dod:species/egg_shifter/armour_drop
+
 execute if entity @a[tag=wolf_born] run function dod:species/wolf_born/bone_check
 
-
+execute as @e[type=marker,tag=dod_demonic_marker] at @s unless entity @a[tag=demonic,distance=..10] run kill @s
 
 execute as @a[tag=copper_born,tag=!dod_copper_born_check] run function dod:species/copper_born/copper_born_init

@@ -1,4 +1,4 @@
-execute unless score World dod_moon_night_math matches 1 as @a[tag=werewolf,predicate=dod:watercheck] run damage @s 3 freeze
+execute unless score World dod_moon_night_math matches 1 as @a[tag=werewolf,predicate=dod:watercheck,nbt=!{RootVehicle:{Entity:{id:"minecraft:boat"}}}] run damage @s 3 freeze
 
 
 execute as @a[tag=werewolf,nbt={Inventory:[{Slot:100b,id:"minecraft:iron_boots"} ]}] run damage @s 5
