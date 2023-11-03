@@ -41,6 +41,9 @@ tag @s remove copper_born
 #insertbefore
 tag @s remove demonic
 
+
+
+##restets
 tag @s remove has_species
 
 tag @s remove dod_book_given
