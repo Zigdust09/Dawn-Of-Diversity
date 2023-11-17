@@ -18,3 +18,4 @@ effect give @s[predicate=dod:watercheck,nbt=!{RootVehicle:{Entity:{id:"minecraft
 #for da wawa2
 #for da wawa3
 #for da wawa4
+#for da wawa5
