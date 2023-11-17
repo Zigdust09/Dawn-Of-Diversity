@@ -1,1 +1,1 @@
-give @s bow{display:{Name:'{"text":"Wolf Borns Bow","color":"dark_blue","italic":false}'},Unbreakable:1b,phase_shifters_bow:1b,Enchantments:[{id:"minecraft:infinity",lvl:1s}]} 1
+give @s bow{display:{Name:'{"text":"Wolf Borns Bow","color":"dark_blue","italic":false}'},Unbreakable:1b,wolf_borns_bow:1b,Enchantments:[{id:"minecraft:infinity",lvl:1s}]} 1
