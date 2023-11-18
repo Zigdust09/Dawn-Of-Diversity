@@ -37,6 +37,7 @@ scoreboard objectives add dod_skyborn_sneak dummy
 scoreboard objectives add dod_icelander_ray dummy
 scoreboard objectives add dod_night_walker_amethyst minecraft.dropped:amethyst_block
 scoreboard objectives add dod_red_loki_sugar minecraft.dropped:sugar
+scoreboard objectives add dod_red_loki_gunpowder minecraft.dropped:gunpowder
 scoreboard objectives add dod_trigger_equip trigger
 scoreboard objectives add dod_what_species_am_i trigger
 scoreboard objectives add dod_trigger_equip trigger

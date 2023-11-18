@@ -63,7 +63,9 @@ execute if entity @s[tag=demonic_has_been] run tag @s add demonic_rnd_checked
 
 ##runs the code to see if you have all non blacklisted species
 execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked,tag=octo_rnd_checked,tag=werewolf_rnd_checked,tag=icelander_rnd_checked,tag=fireborn_rnd_checked,tag=red_loki_rnd_checked,tag=floraling_rnd_checked,tag=serpenteer_rnd_checked,tag=warlock_rnd_checked,tag=spectral_rnd_checked,tag=dimen_rnd_checked,tag=bits_rnd_checked,tag=phase_shifter_rnd_checked,tag=wolf_born_rnd_checked,tag=copper_born_rnd_checked,tag=demonic_rnd_checked] run tag @s add dod_rnd_has_all_species
+execute if entity @s[tag=end_sprinter_rnd_checked,tag=skyborn_rnd_checked,tag=puffer_rnd_checked,tag=night_walker_rnd_checked,tag=egg_shifter_rnd_checked,tag=octo_rnd_checked,tag=werewolf_rnd_checked,tag=icelander_rnd_checked,tag=fireborn_rnd_checked,tag=red_loki_rnd_checked,tag=floraling_rnd_checked,tag=serpenteer_rnd_checked,tag=warlock_rnd_checked,tag=spectral_rnd_checked,tag=dimen_rnd_checked,tag=bits_rnd_checked,tag=phase_shifter_rnd_checked,tag=wolf_born_rnd_checked,tag=copper_born_rnd_checked,tag=demonic_rnd_checked] as @a[distance=0..] run playsound entity.wither.death player @s ~ ~ ~ 1 1
 #insertbefore2
+
 
 ##removes undeded stuff
 tag @s remove end_sprinter_rnd_checked

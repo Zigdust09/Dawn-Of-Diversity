@@ -1,12 +1,13 @@
 
 ##sets the health
+execute as @s run function dod:misc/health/health_take_away
 
 attribute @s[tag=end_sprinter] generic.max_health modifier add b4f655e8-c3be-4279-930e-07370ee99520 "end_sprinter" -4 add
      
 attribute @s[tag=egg_shifter] generic.attack_damage modifier add d436f500-09a9-451c-b9f8-2ff3e80ecfca "egg_shifter_default_dmg" -10 add
 attribute @s[tag=egg_shifter] generic.max_health modifier add 45c0c897-a8f5-4711-a73e-99c9dea59cf6 "egg_shifter" -2 add
 
-attribute @s[tag=octo] generic.max_health modifier add 45c0c897-a8f5-4711-a73e-99c9dea59cf6 "octo" 4 add
+attribute @s[tag=octo] generic.max_health modifier add 88243e2a-d936-4b5c-9f79-ce0f37698586 "octo" 4 add
 
 attribute @s[tag=icelander] generic.max_health modifier add c1ff0cd7-71fd-4672-b11e-1e6865c50db6 "icelander" 2 add
 

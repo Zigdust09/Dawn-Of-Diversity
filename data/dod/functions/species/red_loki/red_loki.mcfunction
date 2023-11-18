@@ -17,6 +17,14 @@ execute as @s[scores={dod_red_loki_sugar=1}] run scoreboard players add @s dod_r
 execute as @s[scores={dod_red_loki_sugar=1}] run kill @e[type=item,nbt={Item:{id:"minecraft:sugar",Count:1b}},limit=1,distance=..2,sort=nearest]
 scoreboard players reset @s dod_red_loki_sugar
 
+
+execute if score World dod_optional_settings_1_is_on matches 1 as @s[scores={dod_red_loki_gunpowder=1}] run summon tnt
+execute if score World dod_optional_settings_1_is_on matches 1 as @s[scores={dod_red_loki_gunpowder=1}] run kill @e[type=item,nbt={Item:{id:"minecraft:gunpowder",Count:1b}},limit=1,distance=..2,sort=nearest]
+scoreboard players reset @s dod_red_loki_gunpowder
+
+
+
+
 effect give @s[scores={dod_red_loki_speed=1..}] speed 1 5 true
 scoreboard players remove @s[scores={dod_red_loki_speed=1..}] dod_red_loki_speed 1
 
